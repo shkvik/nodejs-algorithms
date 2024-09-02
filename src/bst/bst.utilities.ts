@@ -1,9 +1,9 @@
 import { TreeNode } from ".";
 
 export function printTree(
-	node: TreeNode | null, 
-	prefix: string = "", 
-	isLeft: boolean = true, 
+	node: TreeNode | null,
+	prefix: string = "",
+	isLeft: boolean = true,
 	hasRightSibling: boolean = false
 ): void {
 	if (node === null) return;
