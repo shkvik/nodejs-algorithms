@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": [ "<node_internals>/**" ],
+      "program": "${workspaceFolder}/dist/src/main.js",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "preLaunchTask": "build",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
