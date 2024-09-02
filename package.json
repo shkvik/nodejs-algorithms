@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "@types/jest": "^29.5.12",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
@@ -18,11 +19,21 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
-    "moduleFileExtensions": ["ts", "tsx", "js"],
-    "testMatch": ["**/__tests__/**/*.+(ts|tsx)", "**/?(*.)+(spec|test).+(ts|tsx)"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "testMatch": [
+      "**/__tests__/**/*.+(ts|tsx)",
+      "**/?(*.)+(spec|test).+(ts|tsx)"
+    ],
     "transform": {
       "^.+\\.(ts|tsx)$": "ts-jest"
     },
-    "testPathIgnorePatterns": ["/node_modules/", "/dist/"]
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
   }
 }
