@@ -18,7 +18,6 @@ export function bfsAllPaths(graph: Graph, start: string, end: string): string[][
         queue.push([...path, neighbor]);
       }
     }
-    
   }
 
   return paths;

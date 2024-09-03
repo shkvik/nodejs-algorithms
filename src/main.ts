@@ -1,15 +1,6 @@
-import { bfsAllPaths } from "./bst/problems/bfs-all-paths.task";
-import { Graph } from "./graph";
+import { removeZeros } from "./array/remove-zeros.array";
 
-const graph3: Graph = {
-  A: ['B', 'C'],
-  B: ['C', 'D'],
-  C: ['D'],
-  D: ['E'],
-  E: []
-};
-const start3 = 'A';
-const end3 = 'D';
-// Ожидаемый результат: [['A', 'B', 'D'], ['A', 'B', 'C', 'D'], ['A', 'C', 'D']]
+console.log(removeZeros([1, 0, 8, 9]));    // [1, 8, 9]
+console.log(removeZeros([0, 0, 9, 4, 2])); // [9, 4, 2]
 
-console.log(bfsAllPaths(graph3, start3, end3));
+console.log(1)
