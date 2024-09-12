@@ -1,3 +1,4 @@
+import { printTree } from "..";
 import { TreeNode } from "../bst.structure";
 
 function maxPathSum(root: TreeNode | null): number {
@@ -18,4 +19,35 @@ function maxPathSum(root: TreeNode | null): number {
 
   maxGain(root);
   return maxSum;
+}
+
+
+export function maxPathSumDBG() {
+  const tests = [
+    {
+      input: new TreeNode(1, new TreeNode(2), new TreeNode(3)),
+      result: 6
+    },
+    {
+      input: new TreeNode(-10, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7))),
+      result: 42
+    },
+    {
+      input: new TreeNode(2, new TreeNode(-1)),
+      result: 2
+    }
+  ];
+
+  tests.forEach((test, index) => {
+    const result = maxPathSum(test.input);
+    if (result === test.result) {
+      console.log(`${index} success`);
+    } else {
+      console.log(`${index} fail`);
+      console.log(`expected ${test.result}`);
+      console.log(`got ${result}`);
+    }
+    printTree(test.input);
+    console.log()
+  });
 }
