@@ -1,5 +1,5 @@
 import { TreeNode } from "../bst.structure";
-import { printTree, testPrintTree } from "../bst.utilities";
+import { printTree } from "../bst.utilities";
 
 function isValidBST(root: TreeNode | null, min?: number, max?: number): boolean {
   const currentVal = root?.val;
@@ -45,7 +45,7 @@ export function isValidBSTDBG(){
       console.log(`expected ${test.result}`);
       console.log(`got ${result}`);
     }
-    testPrintTree(test.input);
+    printTree(test.input);
     console.log()
   });
 }
