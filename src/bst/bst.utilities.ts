@@ -13,11 +13,11 @@ function _printTree(
   console.log(currentPrefix + node.val);
   const childPrefix = prefix + (isLeft ? (hasRightSibling ? "│   " : "    ") : "    ");
   if (node.left || node.right) {
-    if (node.left) {
-      _printTree(node.left, childPrefix, true, node.right !== null);
-    }
     if (node.right) {
       _printTree(node.right, childPrefix, false, false);
+    }
+    if (node.left) {
+      _printTree(node.left, childPrefix, true, node.right !== null);
     }
   }
 }
