@@ -1,5 +1,5 @@
-import { printTree, TreeNode } from "./bst";
-
+import { TreeNode } from "../bst.structure";
+import { printTree } from "../bst.utilities";
 
 function deleteNode(root: TreeNode | null, key: number): TreeNode | null {
   if (!root) {
@@ -58,4 +58,3 @@ function deleteNodeDBG() {
     console.log(`-------------------`)
   });
 }
-
