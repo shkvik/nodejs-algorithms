@@ -14,10 +14,10 @@ function _printTree(
   const childPrefix = prefix + (isLeft ? (hasRightSibling ? "│   " : "    ") : "    ");
   if (node.left || node.right) {
     if (node.right) {
-      _printTree(node.right, childPrefix, false, false);
+      _printTree(node.left, childPrefix, true, node.right !== null);
     }
     if (node.left) {
-      _printTree(node.left, childPrefix, true, node.right !== null);
+      _printTree(node.right, childPrefix, false, false);
     }
   }
 }
