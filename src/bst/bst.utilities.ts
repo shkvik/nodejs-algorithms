@@ -5,19 +5,26 @@ import { TreeNode } from ".";
 function _printTree(
   node: TreeNode | null,
   prefix: string = "",
-  isLeft: boolean = true,
-  hasRightSibling: boolean = false
+  isRight: boolean = true,
+  hasLeftSibling: boolean = false
 ): void {
   if (node === null) return;
-  const currentPrefix = prefix + (isLeft ? (hasRightSibling ? "├── " : "└── ") : "└── ");
+
+  // Определяем текущий префикс для текущего узла
+  const currentPrefix = prefix + (isRight ? (hasLeftSibling ? "├── " : "└── ") : hasLeftSibling == isRight ?  "└── ": "├── ");
   console.log(currentPrefix + node.val);
-  const childPrefix = prefix + (isLeft ? (hasRightSibling ? "│   " : "    ") : "    ");
+
+  // Формируем префикс для потомков
+  const childPrefix = prefix + (hasLeftSibling ? "│   " : "    ");
+
   if (node.left || node.right) {
+    // Сначала обрабатываем правый узел, чтобы он был сверху
     if (node.right) {
-      _printTree(node.left, childPrefix, true, node.right !== null);
+      _printTree(node.right, childPrefix, true, node.left !== null);
     }
+    // Затем обрабатываем левый узел, чтобы он был внизу
     if (node.left) {
-      _printTree(node.right, childPrefix, false, false);
+      _printTree(node.left, childPrefix, false, false);
     }
   }
 }
@@ -30,11 +37,12 @@ export function printTree(node: TreeNode): void {
   console.log('BST ' + node.val);
   const childPrefix = "    ";
   if (node.left || node.right) {
-    if (node.left) {
-      _printTree(node.left, childPrefix, true, node.right !== null);
-    }
     if (node.right) {
-      _printTree(node.right, childPrefix, false, false);
+      _printTree(node.right, childPrefix, true, node.left !== null);
+    }
+    // Затем обрабатываем левый узел, чтобы он был ниже
+    if (node.left) {
+      _printTree(node.left, childPrefix, false, false);
     }
   }
 }
