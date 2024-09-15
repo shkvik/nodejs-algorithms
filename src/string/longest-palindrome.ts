@@ -48,3 +48,36 @@ function longestPalindromeSECOND(s: string): string {
 
   return s.slice(start, start + maxLength);
 }
+
+export function longestPalindromeDBG(){
+
+  const tests = [
+    {
+      input: "babad",
+      result: "bab" // или "aba", оба ответа верны
+    },
+    {
+      input: "cbbd",
+      result: "bb"
+    },
+    {
+      input: "a",
+      result: "a"
+    },
+    {
+      input: "ac",
+      result: "a" // или "c", оба ответа верны
+    }
+  ];
+  
+  tests.forEach((test, index) => {
+    const result = longestPalindromeSECOND(test.input);
+    if (result === test.result) {
+      console.log(`${index} success`);
+    } else {
+      console.log(`${index} fail`);
+      console.log(`expected ${test.result}`);
+      console.log(`got ${result}`);
+    }
+  });
+}
