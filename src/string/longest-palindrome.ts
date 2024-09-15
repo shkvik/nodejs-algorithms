@@ -28,13 +28,13 @@ function longestPalindromeSECOND(s: string): string {
   if (s.length < 2) return s;
 
   let start = 0;
-  let maxLength = 1;
+  let maxLength = 0;
 
   const expandAroundCenter = (l: number, r: number) => {
     while (l >= 0 && r < s.length && s[l] === s[r]) {
-      if (r - l + 1 > maxLength) {
+      if (r - l > maxLength) {
         start = l;
-        maxLength = r - l + 1;
+        maxLength = r - l;
       }
       l--;
       r++;
@@ -46,7 +46,7 @@ function longestPalindromeSECOND(s: string): string {
     expandAroundCenter(i, i + 1);
   }
 
-  return s.slice(start, start + maxLength);
+  return s.slice(start, start + maxLength + 1);
 }
 
 export function longestPalindromeDBG(){
