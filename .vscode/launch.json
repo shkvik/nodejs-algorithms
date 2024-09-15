@@ -6,11 +6,12 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": [ "<node_internals>/**" ],
-      "program": "${workspaceFolder}/dist/src/main.js",
+      "program": "${workspaceFolder}/src/main.ts",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "preLaunchTask": "build",
-      "envFile": "${workspaceFolder}/.env"
+      "envFile": "${workspaceFolder}/.env",
+      "sourceMaps": true
     }
   ]
 }

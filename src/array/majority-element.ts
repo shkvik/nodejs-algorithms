@@ -10,3 +10,27 @@ function majorityElement(nums: number[]): number {
   }
   return candidate!;
 }
+
+export function majorityElementDBG() {
+  const tests = [
+    {
+      input: [3, 2, 3],
+      result: 3
+    },
+    {
+      input: [1, 2, 2, 1, 1, 2, 2],
+      result: 2
+    }
+  ];
+
+  tests.forEach((test, index) => {
+    const result = majorityElement(test.input);
+    if (result === test.result) {
+      console.log(`${index} success`);
+    } else {
+      console.log(`${index} fail`);
+      console.log(`expected ${test.result}`);
+      console.log(`got ${result}`);
+    }
+  });
+}
