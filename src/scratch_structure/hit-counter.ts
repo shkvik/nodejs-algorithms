@@ -17,20 +17,20 @@ class HitCounter {
     while (this.hits.length > 0 && this.hits[0][0] <= timestamp - 300) {
       this.hits.shift();
     }
-    let totalHits = 0;
-    for (const [time, count] of this.hits) {
-      totalHits += count;
-    }
-    return totalHits;
+    return this.hits.reduce((acc, hit) => acc += hit[1], 0);
   }
 }
 
-
-const hitCounter = new HitCounter();
-hitCounter.hit(1);
-hitCounter.hit(2);
-hitCounter.hit(3);
-console.log(hitCounter.getHits(4)); // Ожидаемый результат: 3
-hitCounter.hit(300);
-console.log(hitCounter.getHits(300)); // Ожидаемый результат: 4
-console.log(hitCounter.getHits(301)); // Ожидаемый результат: 3
+export function HitCounterDBG() {
+  const hitCounter = new HitCounter();
+  hitCounter.hit(1);
+  hitCounter.hit(2);
+  hitCounter.hit(3);
+  // Ожидаемый результат: 3
+  console.log(hitCounter.getHits(4));
+  hitCounter.hit(4);
+  // Ожидаемый результат: 4
+  console.log(hitCounter.getHits(300));
+  // Ожидаемый результат: 3
+  console.log(hitCounter.getHits(301)); 
+}
