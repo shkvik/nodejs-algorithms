@@ -7,7 +7,7 @@ function search(nums: number[], target: number): number {
       return mid;
     }
     if(nums[left] <= num){
-      if(nums[left] <= target && target <= num){
+      if(target >= nums[left] && target <= num){
         right = mid-1;
       } else{
         left = mid+1;
@@ -22,3 +22,36 @@ function search(nums: number[], target: number): number {
   }
   return -1;
 };
+
+export function searchDBG() {
+  const tests = [
+    {
+      input: { nums: [4,5,6,7,0,1,2], target: 0 },
+      result: 4
+    },
+    {
+      input: { nums: [4,5,6,7,0,1,2], target: 3 },
+      result: -1
+    },
+    {
+      input: { nums: [1], target: 0 },
+      result: -1
+    },
+    {
+      input: { nums: [1], target: 1 },
+      result: 0
+    }
+  ];
+  
+  tests.forEach((test, index) => {
+    const result = search(test.input.nums, test.input.target);
+    if (result === test.result) {
+      console.log(`${index} success`);
+    } else {
+      console.log(`${index} fail`);
+      console.log(`expected ${test.result}`);
+      console.log(`got ${result}`);
+    }
+  });
+}
+
