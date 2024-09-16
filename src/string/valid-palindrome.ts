@@ -1,8 +1,8 @@
 function validPalindrome(s: string): boolean {
 
-  const isPalindrome = (str: string, left: number, right: number): boolean => {
+  const isPalindrome = (left: number, right: number): boolean => {
     while (left < right) {
-      if (str[left] !== str[right]) {
+      if (s[left] !== s[right]) {
         return false;
       }
       left++;
@@ -17,7 +17,7 @@ function validPalindrome(s: string): boolean {
   while (left < right) {
     if (s[left] !== s[right]) {
       // Пробуем удалить один символ с одной из сторон
-      return isPalindrome(s, left + 1, right) || isPalindrome(s, left, right - 1);
+      return isPalindrome(left + 1, right) || isPalindrome(left, right - 1);
     }
     left++;
     right--;
@@ -26,7 +26,7 @@ function validPalindrome(s: string): boolean {
   return true;
 }
 
-function testValidPalindrome(){
+export function testValidPalindrome(){
   const tests = [
     {
       input: "abca",
