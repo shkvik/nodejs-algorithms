@@ -33,3 +33,5 @@ Array.prototype.mergeSort = function<T>(
 
   return merge(left, right);
 };
+
+export {};

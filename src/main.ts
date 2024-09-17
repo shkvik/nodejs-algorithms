@@ -8,7 +8,7 @@ import { EventEmitter } from 'node:events';
 import './sort';
 
 
-const t = [3,1,2].insertionSort();
+const t = [3,1,2].radixSort();
 
 console.log(t)
 

@@ -29,15 +29,15 @@ export declare global {
     /**
      * @default runtime: O(n * k) memory: O(n)
      */
-    radixSort(compareFn?: (a: T, b: T) => number): this;
+    radixSort(): this;
     /**
      * @default runtime: O(n * k) memory: O(n)
      */
-    countingSort(compareFn?: (a: T, b: T) => number): this;
+    countingSort(): this;
     /**
      * @default runtime: O(n + k) memory: O(n + k)
      */
-    bucketSort(compareFn?: (a: T, b: T) => number): this;
+    bucketSort(): this;
     /**
      * @default 
      * runtime: O(n log n) (average case), O(n^2) (worst case) 
@@ -52,6 +52,10 @@ export declare global {
      * @default runtime: O(n ^ 2) memory: O(1)
      */
     combSort(compareFn?: (a: T, b: T) => number): this;
+    /**
+     * @default runtime: O(n log n) memory: O(n)
+     */
+    timSort(compareFn?: (a: T, b: T) => number): this; 
   }
 }
 
