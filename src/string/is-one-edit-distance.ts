@@ -19,3 +19,31 @@ function isOneEditDistance(s: string, t: string): boolean {
   }
   return lenS + 1 === lenT;
 }
+
+export const isOneEditDistanceDBG = () => {
+  const tests = [
+    {
+      input: { s: "ab", t: "acb" },
+      result: true
+    },
+    {
+      input: { s: "cab", t: "ad" },
+      result: false
+    },
+    {
+      input: { s: "1203", t: "1213" },
+      result: true
+    }
+  ];
+
+  tests.forEach((test, index) => {
+    const result = isOneEditDistance(test.input.s, test.input.t);
+    if (result === test.result) {
+      console.log(`${index} success`);
+    } else {
+      console.log(`${index} fail`);
+      console.log(`expected ${test.result}`);
+      console.log(`got ${result}`);
+    }
+  });
+} 
