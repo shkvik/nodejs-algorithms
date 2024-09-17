@@ -17,11 +17,15 @@ function isOneEditDistance(s: string, t: string): boolean {
       }
     }
   }
-  return lenS + 1 === lenT;
+  return true;
 }
 
 export const isOneEditDistanceDBG = () => {
   const tests = [
+    {
+      input: { s: "120031", t: "120032" },
+      result: true
+    },
     {
       input: { s: "ab", t: "acb" },
       result: true
@@ -33,7 +37,8 @@ export const isOneEditDistanceDBG = () => {
     {
       input: { s: "1203", t: "1213" },
       result: true
-    }
+    },
+    
   ];
 
   tests.forEach((test, index) => {

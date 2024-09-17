@@ -1,4 +1,9 @@
 {
+  "compilerOptions": {
+    "paths": {
+      "@sorts": ["src/sort/index"] 
+    }
+  },
   "extends": "./tsconfig.json",
   "exclude": ["node_modules", "dist" ]
 }
