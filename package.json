@@ -37,6 +37,8 @@
     ]
   },
   "dependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "cli-progress": "^3.12.0",
     "reflect-metadata": "^0.2.2"
   }
 }

@@ -6,9 +6,13 @@ import { lengthOfLongestSubstringDBG } from "./string/longest-substring.string";
 import { testValidPalindrome } from "./string/valid-palindrome";
 import { EventEmitter } from 'node:events';
 import './sort';
+import { testSortingPerformance } from "./sort/utilities";
 
+const largeArray = Array.from({ length: 1000000 }, () => Math.floor(Math.random() * 100000));
 
-const t = [3,1,2].radixSort();
+testSortingPerformance('sort', largeArray)
+
+const t = [3,1,2].bubbleSort();
 
 console.log(t)
 
