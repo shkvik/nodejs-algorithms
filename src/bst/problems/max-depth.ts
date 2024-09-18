@@ -4,14 +4,14 @@ import { TreeNode } from "../bst.structure";
 export namespace Recursion {
   function maxDepth(root: TreeNode | null): number {
     if (!root) return 0;
-  
+
     const leftDepth = maxDepth(root.left);
     const rightDepth = maxDepth(root.right);
-  
+
     return Math.max(leftDepth, rightDepth) + 1;
   }
 
-  export function maxDepthDBG(){
+  export function maxDepthDBG() {
     const tests = [
       {
         input: new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7))),
@@ -26,7 +26,7 @@ export namespace Recursion {
         result: 0
       }
     ];
-    
+
     tests.forEach((test, index) => {
       const result = maxDepth(test.input);
       if (result === test.result) {
@@ -47,14 +47,14 @@ export namespace BFS {
     if (root === null) {
       return 0;
     }
-  
+
     const queue: [TreeNode, number][] = [[root, 1]];
     let maxDepth = 0;
-  
+
     while (queue.length > 0) {
       const [node, depth] = queue.shift()!;
       maxDepth = Math.max(maxDepth, depth);
-  
+
       if (node.left) {
         queue.push([node.left, depth + 1]);
       }
@@ -62,11 +62,11 @@ export namespace BFS {
         queue.push([node.right, depth + 1]);
       }
     }
-  
+
     return maxDepth;
   }
 
-  function maxDepthDBG(){
+  function maxDepthDBG() {
     const tests = [
       {
         input: new TreeNode(3, new TreeNode(9), new TreeNode(20, new TreeNode(15), new TreeNode(7))),
@@ -81,7 +81,7 @@ export namespace BFS {
         result: 0
       }
     ];
-    
+
     tests.forEach((test, index) => {
       const result = maxDepth(test.input);
       if (result === test.result) {
@@ -97,3 +97,29 @@ export namespace BFS {
   }
 }
 
+export namespace Stack {
+  function maxDepth(root: TreeNode | null): number {
+    if (root === null) return 0;
+
+    const stack: { node: TreeNode, depth: number }[] = [];
+    stack.push({ node: root, depth: 1 });
+
+    let maxDepth = 0;
+
+    while (stack.length > 0) {
+      const { node, depth } = stack.pop()!;
+
+      maxDepth = Math.max(maxDepth, depth);
+
+      if (node.left !== null) {
+        stack.push({ node: node.left, depth: depth + 1 });
+      }
+      if (node.right !== null) {
+        stack.push({ node: node.right, depth: depth + 1 });
+      }
+    }
+
+    return maxDepth;
+  }
+
+}
