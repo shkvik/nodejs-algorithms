@@ -20,11 +20,11 @@ function merge(nums1: number[], m: number, nums2: number[], n: number): void {
   }
 }
 
-function mergeDBG(){
+function mergeDBG() {
   const tests = [
     {
-      input: { nums1: [1,2,3,0,0,0], m: 3, nums2: [2,5,6], n: 3 },
-      result: [1,2,2,3,5,6]
+      input: { nums1: [1, 2, 3, 0, 0, 0], m: 3, nums2: [2, 5, 6], n: 3 },
+      result: [1, 2, 2, 3, 5, 6]
     },
     {
       input: { nums1: [1], m: 1, nums2: [], n: 0 },
@@ -35,7 +35,7 @@ function mergeDBG(){
       result: [1]
     }
   ];
-  
+
   tests.forEach((test, index) => {
     merge(test.input.nums1, test.input.m, test.input.nums2, test.input.n);
     const success = JSON.stringify(test.input.nums1) === JSON.stringify(test.result);
