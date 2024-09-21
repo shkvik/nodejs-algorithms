@@ -23,7 +23,7 @@ export class EventEmitterScratch {
     this.events.get(eventName)!.push(callback);
 
     return {
-      unsubscribe: () => {
+      unsubscribe: function() {
         const callbacks = this.events.get(eventName);
         if (callbacks) {
           const index = callbacks.indexOf(callback);

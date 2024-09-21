@@ -26,7 +26,7 @@ function longestSubarray(nums: number[]): number {
 }
 
 
-function longestSubarrayDBG(){
+export function longestSubarrayDBG(){
   const tests = [
     {
       input: [1, 1, 0, 1],

@@ -21,16 +21,17 @@ function subarraySum(nums: number[], k: number): number {
   return count;
 }
 
-function subarraySumDBG(){
+export function subarraySumDBG(){
   const tests = [
+    {
+      input: { nums: [1, 2, 3], k: 3 },
+      result: 2 // Два подмассива: [1,2] (индексы 0-1) и [3] (индекс 2)
+    },
     {
       input: { nums: [1, 1, 1], k: 2 },
       result: 2 // Два подмассива: [1,1] (индексы 0-1) и [1,1] (индексы 1-2)
     },
-    {
-      input: { nums: [1, 2, 3], k: 3 },
-      result: 2 // Два подмассива: [1,2] (индексы 0-1) и [3] (индекс 2)
-    }
+    
   ];
   
   tests.forEach((test, index) => {
