@@ -1,5 +1,6 @@
 import { TTTDBG } from "./bst/problems/serialize-and-deserialize";
 import { DBG } from "./linked_list/add-two-numbers";
+import { findAnagramsDBG } from "./string/find-anagrams";
 
 const problems_md = [
   "Two Sum",
@@ -237,7 +238,7 @@ const problems_4 = [
   console.log(Array.from(unionNew))
 })()
 
-DBG()
+findAnagramsDBG()
 
 
 

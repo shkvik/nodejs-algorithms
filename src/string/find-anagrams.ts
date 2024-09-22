@@ -14,7 +14,7 @@ function findAnagrams(s: string, p: string): number[] {
   }
 
   // Проверяем начальное окно
-  if (JSON.stringify(pCount) === JSON.stringify(sCount)) {
+  if (pCount.every((elem, i) => elem === sCount[i])) {
     result.push(0);
   }
 
@@ -26,7 +26,7 @@ function findAnagrams(s: string, p: string): number[] {
     sCount[s.charCodeAt(i - p.length) - aCharCode]--;
 
     // Проверяем текущее окно
-    if (JSON.stringify(pCount) === JSON.stringify(sCount)) {
+    if (pCount.every((elem, i) => elem === sCount[i])) {
       result.push(i - p.length + 1);
     }
   }
