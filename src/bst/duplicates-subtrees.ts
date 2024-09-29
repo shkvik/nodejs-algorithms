@@ -1,4 +1,4 @@
-import { printTree, TreeNode } from "../utilities";
+import { printTree, TreeNode } from "./utilities";
 
 function findDuplicateSubtrees(root: TreeNode | null): TreeNode[] {
   const map = new Map<string, number>();

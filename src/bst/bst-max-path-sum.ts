@@ -1,4 +1,4 @@
-import { printTree, TreeNode } from "../utilities";
+import { printTree, TreeNode } from "./utilities";
 
 
 function maxPathSum(root: TreeNode | null): number {

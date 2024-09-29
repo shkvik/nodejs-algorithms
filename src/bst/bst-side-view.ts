@@ -1,4 +1,4 @@
-import { printTree, TreeNode } from "../utilities";
+import { printTree, TreeNode } from "./utilities";
 
 function rightSideView(root: TreeNode | null): number[] {
   const result: number[] = [];

@@ -1,4 +1,4 @@
-import { printTree, TreeNode } from "../utilities";
+import { printTree, TreeNode } from "./utilities";
 
 function isSymmetric(root: TreeNode | null): boolean {
   if (!root) return true;

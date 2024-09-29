@@ -1,4 +1,4 @@
-import { printTree, TreeNode } from "../utilities";
+import { printTree, TreeNode } from "./utilities";
 
 function isValidBST(root: TreeNode | null, min?: number, max?: number): boolean {
   const currentVal = root?.val;

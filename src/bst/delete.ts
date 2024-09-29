@@ -1,4 +1,4 @@
-import { printTree, TreeNode } from "../utilities";
+import { printTree, TreeNode } from "./utilities";
 
 function deleteNode(root: TreeNode | null, key: number): TreeNode | null {
   if (!root) {

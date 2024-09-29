@@ -1,4 +1,4 @@
-import { printTree, TreeNode } from "../utilities";
+import { printTree, TreeNode } from "./utilities";
 
 function serialize(root: TreeNode): string {
   const preorderSerialize = (node: TreeNode) => {

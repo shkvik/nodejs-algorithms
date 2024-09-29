@@ -1,4 +1,4 @@
-import { TreeNode } from "../utilities";
+import { TreeNode } from "./utilities";
 
 function findMin(root: TreeNode | null): number | null {
   if (!root) {
