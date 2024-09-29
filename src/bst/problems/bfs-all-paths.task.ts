@@ -1,4 +1,4 @@
-import { Graph } from "src/graph";
+import { Graph } from "src/graph/utilities";
 
 export function bfsAllPaths(graph: Graph, start: string, end: string): string[][] {
   const paths: string[][] = [];

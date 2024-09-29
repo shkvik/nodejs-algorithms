@@ -1,4 +1,4 @@
-import { TreeNode } from "../bst.structure";
+import { printTree, TreeNode } from "../utilities";
 
 function isBalanced(root: TreeNode | null): boolean {
   function checkBalance(node: TreeNode | null): number {

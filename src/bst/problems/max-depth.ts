@@ -1,5 +1,4 @@
-import { printTree } from "..";
-import { TreeNode } from "../bst.structure";
+import { printTree, TreeNode } from "../utilities";
 
 export namespace Recursion {
   function maxDepth(root: TreeNode | null): number {

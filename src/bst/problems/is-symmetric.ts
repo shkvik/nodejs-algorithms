@@ -1,4 +1,4 @@
-import { TreeNode } from "../bst.structure";
+import { printTree, TreeNode } from "../utilities";
 
 function isSymmetric(root: TreeNode | null): boolean {
   if (!root) return true;

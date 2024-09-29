@@ -1,5 +1,4 @@
-import { TreeNode } from "../bst.structure";
-import { printTree } from "../bst.utilities";
+import { printTree, TreeNode } from "../utilities";
 
 function findDuplicateSubtrees(root: TreeNode | null): TreeNode[] {
   const map = new Map<string, number>();

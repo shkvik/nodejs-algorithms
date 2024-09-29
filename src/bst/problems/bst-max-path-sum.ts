@@ -1,5 +1,5 @@
-import { printTree } from "..";
-import { TreeNode } from "../bst.structure";
+import { printTree, TreeNode } from "../utilities";
+
 
 function maxPathSum(root: TreeNode | null): number {
   let maxSum = -Infinity;

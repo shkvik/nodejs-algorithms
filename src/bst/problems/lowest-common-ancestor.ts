@@ -1,5 +1,4 @@
-import { printTree } from "..";
-import { TreeNode } from "../bst.structure";
+import { printTree, TreeNode } from "../utilities";
 
 function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: TreeNode | null): TreeNode | null {
   if (root === null || root === p || root === q) {

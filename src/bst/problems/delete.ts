@@ -1,5 +1,4 @@
-import { TreeNode } from "../bst.structure";
-import { printTree } from "../bst.utilities";
+import { printTree, TreeNode } from "../utilities";
 
 function deleteNode(root: TreeNode | null, key: number): TreeNode | null {
   if (!root) {
