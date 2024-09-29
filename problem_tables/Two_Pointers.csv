@@ -1,0 +1,38 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+15,3Sum,Medium, https://leetcode.com/problems/3sum," ""Two Pointers","[' Sorting', ' Array""']"
+344,Reverse String,Easy, https://leetcode.com/problems/reverse-string," ""Two Pointers","[' String""']"
+125,Valid Palindrome,Easy, https://leetcode.com/problems/valid-palindrome," ""Two Pointers","[' String""']"
+28,Implement strStr(),Easy, https://leetcode.com/problems/implement-strstr," ""Two Pointers","[' String""']"
+443,String Compression,Easy, https://leetcode.com/problems/string-compression," ""Two Pointers","[' String""']"
+165,Compare Version Numbers,Medium, https://leetcode.com/problems/compare-version-numbers," ""Two Pointers","[' String""']"
+844,Backspace String Compare,Easy, https://leetcode.com/problems/backspace-string-compare," ""Two Pointers","[' String', ' Stack', ' Simulation""']"
+541,Reverse String II,Easy, https://leetcode.com/problems/reverse-string-ii," ""Two Pointers","[' String""']"
+345,Reverse Vowels of a String,Easy, https://leetcode.com/problems/reverse-vowels-of-a-string," ""Two Pointers","[' String""']"
+557,Reverse Words in a String III,Easy, https://leetcode.com/problems/reverse-words-in-a-string-iii," ""Two Pointers","[' String""']"
+392,Is Subsequence,Easy, https://leetcode.com/problems/is-subsequence," ""Two Pointers","[' String', ' Dynamic Programming""']"
+151,Reverse Words in a String,Medium, https://leetcode.com/problems/reverse-words-in-a-string," ""Two Pointers","[' String""']"
+1023,Camelcase Matching,Medium, https://leetcode.com/problems/camelcase-matching," ""Two Pointers","[' String', ' String Matching""']"
+186,Reverse Words in a String II,Medium, https://leetcode.com/problems/reverse-words-in-a-string-ii," ""Two Pointers","[' String""']"
+1332,Remove Palindromic Subsequences,Easy, https://leetcode.com/problems/remove-palindromic-subsequences," ""Two Pointers","[' String""']"
+680,Valid Palindrome II,Easy, https://leetcode.com/problems/valid-palindrome-ii," ""Two Pointers","[' String', ' Greedy""']"
+777,Swap Adjacent in LR String,Medium, https://leetcode.com/problems/swap-adjacent-in-lr-string," ""Two Pointers","[' Greedy', ' String""']"
+408,Valid Word Abbreviation,Easy, https://leetcode.com/problems/valid-word-abbreviation," ""Two Pointers","[' String""']"
+524,Longest Word in Dictionary through Deleting,Medium, https://leetcode.com/problems/longest-word-in-dictionary-through-deleting," ""Two Pointers","[' String', ' Sorting""']"
+809,Expressive Words,Medium, https://leetcode.com/problems/expressive-words," ""Two Pointers","[' String""']"
+925,Long Pressed Name,Easy,https://leetcode.com/problems/long-pressed-name,"Two Pointers, String",
+259,3Sum Smaller,Medium,https://leetcode.com/problems/3sum-smaller,"Array, Two Pointers",
+1237,Find Positive Integer Solution for a Given Equation,Easy,https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation,"Math, Two Pointers, Binary Search",
+457,Circular Array Loop,Medium,https://leetcode.com/problems/circular-array-loop,"Array, Two Pointers",
+917,Reverse Only Letters,Easy,https://leetcode.com/problems/reverse-only-letters,"Two Pointers, String",
+948,Bag of Tokens,Medium,https://leetcode.com/problems/bag-of-tokens,"Greedy, Two Pointers",
+1089,Duplicate Zeros,Easy,https://leetcode.com/problems/duplicate-zeros,"Array, Two Pointers",
+481,Magical String,Medium,https://leetcode.com/problems/magical-string,"Two Pointers, String",
+838,Push Dominoes,Medium,https://leetcode.com/problems/push-dominoes,"Two Pointers, Dynamic Programming",
+906,Super Palindromes,Hard,https://leetcode.com/problems/super-palindromes,"String, Two Pointers",
+1471,The k Strongest Values in an Array,Medium,https://leetcode.com/problems/the-k-strongest-values-in-an-array,"Sorting, Two Pointers",
+696,Count Binary Substrings,Easy,https://leetcode.com/problems/count-binary-substrings,"String, Two Pointers",
+245,Shortest Word Distance III,Medium,https://leetcode.com/problems/shortest-word-distance-iii,"Array, Two Pointers",
+633,Sum of Square Numbers,Easy,https://leetcode.com/problems/sum-of-square-numbers,"Math, Two Pointers",
+1156,Swap For Longest Repeated Character Substring,Medium,https://leetcode.com/problems/swap-for-longest-repeated-character-substring,"Two Pointers, Sliding Window",
+923,3Sum With Multiplicity,Medium,https://leetcode.com/problems/3sum-with-multiplicity,"Array, Two Pointers",
+1385,Find the Distance Value Between Two Arrays,Easy,https://leetcode.com/problems/find-the-distance-value-between-two-arrays,"Array, Two Pointers",

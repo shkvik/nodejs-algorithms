@@ -1,0 +1,44 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+200,Number of Islands,Medium, https://leetcode.com/problems/number-of-islands," ""Depth-First Search","[' Breadth-First Search', ' Union Find""']"
+386,Lexicographical Numbers,Medium, https://leetcode.com/problems/lexicographical-numbers," ""Depth-First Search","[' Trie""']"
+547,Friend Circles,Medium, https://leetcode.com/problems/friend-circles," ""Depth-First Search","[' Union Find', ' Graph""']"
+211,Add and Search Word - Data structure design,Medium, https://leetcode.com/problems/add-and-search-word-data-structure-design," ""Depth-First Search","[' Trie', ' Design""']"
+323,Number of Connected Components in an Undirected Graph,Medium, https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph," ""Depth-First Search","[' Union Find', ' Graph""']"
+210,Course Schedule II,Medium, https://leetcode.com/problems/course-schedule-ii," ""Depth-First Search","[' Breadth-First Search', ' Graph', ' Topological Sort""']"
+489,Robot Room Cleaner,Hard, https://leetcode.com/problems/robot-room-cleaner," ""Depth-First Search","[' Backtracking', ' Interactive""']"
+207,Course Schedule,Medium, https://leetcode.com/problems/course-schedule," ""Depth-First Search","[' Breadth-First Search', ' Graph', ' Topological Sort""']"
+737,Sentence Similarity II,Medium, https://leetcode.com/problems/sentence-similarity-ii," ""Depth-First Search","[' Union Find', ' Graph""']"
+332,Reconstruct Itinerary,Medium, https://leetcode.com/problems/reconstruct-itinerary," ""Depth-First Search","[' Graph', ' Eulerian Circuit""']"
+133,Clone Graph,Medium, https://leetcode.com/problems/clone-graph," ""Depth-First Search","[' Breadth-First Search', ' Graph""']"
+261,Graph Valid Tree,Medium, https://leetcode.com/problems/graph-valid-tree," ""Depth-First Search","[' Breadth-First Search', ' Union Find', ' Graph""']"
+417,Pacific Atlantic Water Flow,Medium, https://leetcode.com/problems/pacific-atlantic-water-flow," ""Depth-First Search","[' Breadth-First Search', ' Graph""']"
+785,Is Graph Bipartite?,Medium, https://leetcode.com/problems/is-graph-bipartite," ""Depth-First Search","[' Breadth-First Search', ' Union Find', ' Graph""']"
+339,Nested List Weight Sum,Easy, https://leetcode.com/problems/nested-list-weight-sum," ""Depth-First Search","[' Breadth-First Search""']"
+1254,Number of Closed Islands,Medium, https://leetcode.com/problems/number-of-closed-islands," ""Depth-First Search","[' Breadth-First Search', ' Union Find""']"
+839,Similar String Groups,Hard, https://leetcode.com/problems/similar-string-groups," ""Depth-First Search","[' Breadth-First Search', ' Union Find""']"
+841,Keys and Rooms,Medium, https://leetcode.com/problems/keys-and-rooms," ""Depth-First Search","[' Breadth-First Search', ' Graph""']"
+684,Redundant Connection,Medium, https://leetcode.com/problems/redundant-connection," ""Depth-First Search","[' Breadth-First Search', ' Union Find', ' Graph""']"
+711,Number of Distinct Islands II,Hard, https://leetcode.com/problems/number-of-distinct-islands-ii," ""Depth-First Search","[' Hash Table', ' Geometry""']"
+1059,All Paths from Source Lead to Destination,Medium, https://leetcode.com/problems/all-paths-from-source-lead-to-destination," ""Depth-First Search","[' Graph""']"
+851,Loud and Rich,Medium, https://leetcode.com/problems/loud-and-rich," ""Depth-First Search","[' Graph', ' Topological Sort""']"
+886,Possible Bipartition,Medium, https://leetcode.com/problems/possible-bipartition," ""Depth-First Search","[' Breadth-First Search', ' Union Find', ' Graph""']"
+488,Zuma Game,Hard, https://leetcode.com/problems/zuma-game," ""Depth-First Search","[' Breadth-First Search', ' Memoization', ' Game Theory""']"
+364,Nested List Weight Sum II,Medium, https://leetcode.com/problems/nested-list-weight-sum-ii," ""Depth-First Search","[' Breadth-First Search""']"
+753,Cracking the Safe,Hard, https://leetcode.com/problems/cracking-the-safe," ""Depth-First Search","[' Graph', ' Eulerian Path""']"
+947,Most Stones Removed with Same Row or Column,Medium,https://leetcode.com/problems/most-stones-removed-with-same-row-or-column,"Union Find, Graph, Depth-First Search",
+1466,Reorder Routes to Make All Paths Lead to the City Zero,Medium,https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero,"Graph, Depth-First Search, Breadth-First Search",
+802,Find Eventual Safe States,Medium,https://leetcode.com/problems/find-eventual-safe-states,"Graph, Depth-First Search, Breadth-First Search, Topological Sort",
+302,Smallest Rectangle Enclosing Black Pixels,Hard,https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels,"Binary Search, Depth-First Search",
+531,Lonely Pixel I,Medium,https://leetcode.com/problems/lonely-pixel-i,"Array, Depth-First Search, Breadth-First Search",
+1530,Number of Good Leaf Nodes Pairs,Medium,https://leetcode.com/problems/number-of-good-leaf-nodes-pairs,"Tree, Depth-First Search, Binary Tree",
+514,Freedom Trail,Hard,https://leetcode.com/problems/freedom-trail,"Dynamic Programming, Breadth-First Search, Depth-First Search",
+988,Smallest String Starting From Leaf,Medium,https://leetcode.com/problems/smallest-string-starting-from-leaf,"Tree, Depth-First Search",
+1020,Number of Enclaves,Medium,https://leetcode.com/problems/number-of-enclaves,"Graph, Depth-First Search, Breadth-First Search",
+1261,Find Elements in a Contaminated Binary Tree,Medium,https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree,"Tree, Depth-First Search",
+1377,Frog Position After T Seconds,Hard,https://leetcode.com/problems/frog-position-after-t-seconds,"Tree, Depth-First Search, Breadth-First Search, Graph",
+1516,Move Sub-Tree of N-Ary Tree,Hard,https://leetcode.com/problems/move-sub-tree-of-n-ary-tree,"Tree, Depth-First Search",
+563,Binary Tree Tilt,Easy,https://leetcode.com/problems/binary-tree-tilt,"Tree, Depth-First Search",
+1273,Delete Tree Nodes,Medium,https://leetcode.com/problems/delete-tree-nodes,"Tree, Depth-First Search",
+1306,Jump Game III,Medium,https://leetcode.com/problems/jump-game-iii,"Depth-First Search, Breadth-First Search",
+1448,Count Good Nodes in Binary Tree,Medium,https://leetcode.com/problems/count-good-nodes-in-binary-tree,"Tree, Depth-First Search",
+1519,Number of Nodes in the Sub-Tree With the Same Label,Medium,https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label,"Tree, Depth-First Search",

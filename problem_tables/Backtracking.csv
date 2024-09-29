@@ -1,0 +1,34 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+22,Generate Parentheses,Medium, https://leetcode.com/problems/generate-parentheses," ""Backtracking","[' String""']"
+37,Sudoku Solver,Hard, https://leetcode.com/problems/sudoku-solver," ""Backtracking""",
+51,N-Queens,Hard, https://leetcode.com/problems/n-queens," ""Backtracking""",
+46,Permutations,Medium, https://leetcode.com/problems/permutations," ""Backtracking""",
+131,Palindrome Partitioning,Medium, https://leetcode.com/problems/palindrome-partitioning," ""Backtracking""",
+93,Restore IP Addresses,Medium, https://leetcode.com/problems/restore-ip-addresses," ""Backtracking","[' String""']"
+77,Combinations,Medium, https://leetcode.com/problems/combinations," ""Backtracking""",
+47,Permutations II,Medium, https://leetcode.com/problems/permutations-ii," ""Backtracking""",
+756,Pyramid Transition Matrix,Medium, https://leetcode.com/problems/pyramid-transition-matrix," ""Backtracking","[' Bit Manipulation""']"
+17,Letter Combinations of a Phone Number,Medium, https://leetcode.com/problems/letter-combinations-of-a-phone-number," ""Backtracking","[' String""']"
+140,Word Break II,Hard, https://leetcode.com/problems/word-break-ii," ""Backtracking","[' Dynamic Programming""']"
+980,Unique Paths III,Hard, https://leetcode.com/problems/unique-paths-iii," ""Backtracking","[' Dynamic Programming', ' Matrix""']"
+1219,Path with Maximum Gold,Medium, https://leetcode.com/problems/path-with-maximum-gold," ""Backtracking","[' Matrix""']"
+465,Optimal Account Balancing,Hard, https://leetcode.com/problems/optimal-account-balancing," ""Backtracking","[' Dynamic Programming', ' Graph""']"
+52,N-Queens II,Hard, https://leetcode.com/problems/n-queens-ii," ""Backtracking""",
+784,Letter Case Permutation,Medium, https://leetcode.com/problems/letter-case-permutation," ""Backtracking","[' String', ' Bit Manipulation""']"
+797,All Paths From Source to Target,Medium, https://leetcode.com/problems/all-paths-from-source-to-target," ""Backtracking","[' Depth-First Search', ' Breadth-First Search', ' Graph""']"
+216,Combination Sum III,Medium, https://leetcode.com/problems/combination-sum-iii," ""Backtracking""",
+89,Gray Code,Medium, https://leetcode.com/problems/gray-code," ""Backtracking","[' Math', ' Bit Manipulation""']"
+1307,Verbal Arithmetic Puzzle,Hard, https://leetcode.com/problems/verbal-arithmetic-puzzle," ""Backtracking""",
+291,Word Pattern II,Hard, https://leetcode.com/problems/word-pattern-ii," ""Backtracking""",
+967,Numbers With Same Consecutive Differences,Medium, https://leetcode.com/problems/numbers-with-same-consecutive-differences," ""Backtracking","[' Breadth-First Search""']"
+425,Word Squares,Hard,https://leetcode.com/problems/word-squares,"Backtracking, Trie",
+254,Factor Combinations,Medium,https://leetcode.com/problems/factor-combinations,Backtracking,
+294,Flip Game II,Medium,https://leetcode.com/problems/flip-game-ii,"Dynamic Programming, Backtracking",
+411,Minimum Unique Word Abbreviation,Hard,https://leetcode.com/problems/minimum-unique-word-abbreviation,"Bit Manipulation, Backtracking",
+1286,Iterator for Combination,Medium,https://leetcode.com/problems/iterator-for-combination,"Backtracking, Design",
+1079,Letter Tile Possibilities,Medium,https://leetcode.com/problems/letter-tile-possibilities,Backtracking,
+526,Beautiful Arrangement,Medium,https://leetcode.com/problems/beautiful-arrangement,"Backtracking, Dynamic Programming",
+638,Shopping Offers,Medium,https://leetcode.com/problems/shopping-offers,"Dynamic Programming, Backtracking",
+816,Ambiguous Coordinates,Medium,https://leetcode.com/problems/ambiguous-coordinates,"String, Backtracking",
+1239,Maximum Length of a Concatenated String with Unique Characters,Medium,https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters,Backtracking,
+1415,The k-th Lexicographical String of All Happy Strings of Length n,Medium,https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n,Backtracking,

@@ -1,0 +1,8 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+677,Map Sum Pairs,Medium, https://leetcode.com/problems/map-sum-pairs," ""Trie","[' Hash Table', ' Design""']"
+472,Concatenated Words,Hard, https://leetcode.com/problems/concatenated-words," ""Trie","[' Depth-First Search', ' Dynamic Programming""']"
+208,Implement Trie (Prefix Tree),Medium, https://leetcode.com/problems/implement-trie-prefix-tree," ""Trie","[' Hash Table', ' Design""']"
+720,Longest Word in Dictionary,Easy, https://leetcode.com/problems/longest-word-in-dictionary," ""Trie","[' Array', ' Hash Table', ' String""']"
+745,Prefix and Suffix Search,Hard, https://leetcode.com/problems/prefix-and-suffix-search," ""Trie","[' Design', ' String""']"
+425,Word Squares,Hard,https://leetcode.com/problems/word-squares,"Backtracking, Trie",
+648,Replace Words,Medium,https://leetcode.com/problems/replace-words,"Trie, Hash Map",

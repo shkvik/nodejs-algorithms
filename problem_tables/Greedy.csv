@@ -1,0 +1,72 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+1326,Minimum Number of Taps to Open to Water a Garden,Hard, https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden," ""Greedy","[' Dynamic Programming""']"
+763,Partition Labels,Medium, https://leetcode.com/problems/partition-labels," ""Greedy","[' Hash Table', ' Two Pointers""']"
+1167,Minimum Cost to Connect Sticks,Medium, https://leetcode.com/problems/minimum-cost-to-connect-sticks," ""Greedy","[' Heap (Priority Queue)""']"
+277,Find the Celebrity,Medium, https://leetcode.com/problems/find-the-celebrity," ""Greedy","[' Graph""']"
+767,Reorganize String,Medium, https://leetcode.com/problems/reorganize-string," ""Greedy","[' Heap (Priority Queue)', ' Sorting""']"
+1057,Campus Bikes,Medium, https://leetcode.com/problems/campus-bikes," ""Greedy","[' Sorting', ' Matrix""']"
+134,Gas Station,Medium, https://leetcode.com/problems/gas-station," ""Greedy""",
+1135,Connecting Cities With Minimum Cost,Medium, https://leetcode.com/problems/connecting-cities-with-minimum-cost," ""Greedy","[' Union Find', ' Graph""']"
+179,Largest Number,Medium, https://leetcode.com/problems/largest-number," ""Greedy","[' Sorting', ' String""']"
+1405,Longest Happy String,Medium, https://leetcode.com/problems/longest-happy-string," ""Greedy","[' String', ' Heap (Priority Queue)""']"
+321,Create Maximum Number,Hard, https://leetcode.com/problems/create-maximum-number," ""Greedy","[' Dynamic Programming', ' Monotonic Stack""']"
+1247,Minimum Swaps to Make Strings Equal,Medium, https://leetcode.com/problems/minimum-swaps-to-make-strings-equal," ""Greedy","[' Math', ' String""']"
+646,Maximum Length of Pair Chain,Medium, https://leetcode.com/problems/maximum-length-of-pair-chain," ""Greedy","[' Dynamic Programming""']"
+1520,Maximum Number of Non-Overlapping Substrings,Hard, https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings," ""Greedy","[' String""']"
+1221,Split a String in Balanced Strings,Easy, https://leetcode.com/problems/split-a-string-in-balanced-strings," ""Greedy","[' String""']"
+765,Couples Holding Hands,Hard, https://leetcode.com/problems/couples-holding-hands," ""Greedy","[' Union Find', ' Graph""']"
+855,Exam Room,Medium, https://leetcode.com/problems/exam-room," ""Greedy","[' Design', ' Ordered Set""']"
+842,Split Array into Fibonacci Sequence,Medium, https://leetcode.com/problems/split-array-into-fibonacci-sequence," ""Greedy","[' Backtracking""']"
+738,Monotone Increasing Digits,Medium, https://leetcode.com/problems/monotone-increasing-digits," ""Greedy""",
+1363,Largest Multiple of Three,Hard, https://leetcode.com/problems/largest-multiple-of-three," ""Greedy""",
+1111,Maximum Nesting Depth of Two Valid Parentheses Strings,Medium, https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings," ""Greedy","[' String', ' Stack""']"
+1328,Break a Palindrome,Medium, https://leetcode.com/problems/break-a-palindrome," ""Greedy","[' String""']"
+527,Word Abbreviation,Hard,https://leetcode.com/problems/word-abbreviation,"String, Sorting, Greedy",
+853,Car Fleet,Medium,https://leetcode.com/problems/car-fleet,"Sorting, Greedy",
+630,Course Schedule III,Hard,https://leetcode.com/problems/course-schedule-iii,"Greedy, Sorting, Heap (Priority Queue)",
+484,Find Permutation,Medium,https://leetcode.com/problems/find-permutation,"Array, Greedy",
+926,Flip String to Monotone Increasing,Medium,https://leetcode.com/problems/flip-string-to-monotone-increasing,"Dynamic Programming, String, Greedy",
+960,Delete Columns to Make Sorted III,Hard,https://leetcode.com/problems/delete-columns-to-make-sorted-iii,"Dynamic Programming, Greedy",
+768,Max Chunks To Make Sorted II,Hard,https://leetcode.com/problems/max-chunks-to-make-sorted-ii,"Array, Stack, Greedy",
+1547,Minimum Cost to Cut a Stick,Hard,https://leetcode.com/problems/minimum-cost-to-cut-a-stick,"Dynamic Programming, Greedy",
+1121,Divide Array Into Increasing Sequences,Hard,https://leetcode.com/problems/divide-array-into-increasing-sequences,"Greedy, Counting",
+859,Buddy Strings,Easy,https://leetcode.com/problems/buddy-strings,"String, Greedy",
+758,Bold Words in String,Easy,https://leetcode.com/problems/bold-words-in-string,"String, Greedy",
+330,Patching Array,Hard,https://leetcode.com/problems/patching-array,"Greedy, Array",
+948,Bag of Tokens,Medium,https://leetcode.com/problems/bag-of-tokens,"Greedy, Two Pointers",
+651,4 Keys Keyboard,Medium,https://leetcode.com/problems/4-keys-keyboard,"Dynamic Programming, Greedy",
+667,Beautiful Arrangement II,Medium,https://leetcode.com/problems/beautiful-arrangement-ii,"Array, Math, Greedy",
+789,Escape The Ghosts,Medium,https://leetcode.com/problems/escape-the-ghosts,"Math, Greedy",
+944,Delete Columns to Make Sorted,Easy,https://leetcode.com/problems/delete-columns-to-make-sorted,"Array, Greedy",
+955,Delete Columns to Make Sorted II,Medium,https://leetcode.com/problems/delete-columns-to-make-sorted-ii,"Greedy, Array",
+1199,Minimum Time to Build Blocks,Hard,https://leetcode.com/problems/minimum-time-to-build-blocks,"Greedy, Priority Queue",
+1090,Largest Values From Labels,Medium,https://leetcode.com/problems/largest-values-from-labels,"Greedy, Array",
+1144,Decrease Elements To Make Array Zigzag,Medium,https://leetcode.com/problems/decrease-elements-to-make-array-zigzag,"Array, Greedy",
+1388,Pizza With 3n Slices,Hard,https://leetcode.com/problems/pizza-with-3n-slices,"Dynamic Programming, Greedy",
+1414,Find the Minimum Number of Fibonacci Numbers Whose Sum Is K,Medium,https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k,"Greedy, Math",
+1422,Maximum Score After Splitting a String,Easy,https://leetcode.com/problems/maximum-score-after-splitting-a-string,"Greedy, String",
+1482,Minimum Number of Days to Make m Bouquets,Medium,https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets,"Array, Binary Search, Greedy",
+1488,Avoid Flood in The City,Medium,https://leetcode.com/problems/avoid-flood-in-the-city,"Greedy, Hash Map",
+1509,Minimum Difference Between Largest and Smallest Value in Three Moves,Medium,https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves,"Array, Greedy",
+1526,Minimum Number of Increments on Subarrays to Form a Target Array,Hard,https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array,Greedy,
+1546,Maximum Number of Non-Overlapping Subarrays With Sum Equals Target,Medium,https://leetcode.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target,"Greedy, Hash Map",
+915,Partition Array into Disjoint Intervals,Medium,https://leetcode.com/problems/partition-array-into-disjoint-intervals,"Array, Greedy",
+984,String Without AAA or BBB,Medium,https://leetcode.com/problems/string-without-aaa-or-bbb,"Greedy, String",
+1253,Reconstruct a 2-Row Binary Matrix,Medium,https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix,"Greedy, Array",
+927,Three Equal Parts,Hard,https://leetcode.com/problems/three-equal-parts,"Greedy, Math",
+1323,Maximum 69 Number,Easy,https://leetcode.com/problems/maximum-69-number,Greedy,
+861,Score After Flipping Matrix,Medium,https://leetcode.com/problems/score-after-flipping-matrix,"Greedy, Matrix",
+1042,Flower Planting With No Adjacent,Easy,https://leetcode.com/problems/flower-planting-with-no-adjacent,"Graph, Greedy",
+1386,Cinema Seat Allocation,Medium,https://leetcode.com/problems/cinema-seat-allocation,"Greedy, Sorting",
+1518,Water Bottles,Easy,https://leetcode.com/problems/water-bottles,"Greedy, Simulation",
+1183,Maximum Number of Ones,Hard,https://leetcode.com/problems/maximum-number-of-ones,"Greedy, Dynamic Programming",
+1354,Construct Target Array With Multiple Sums,Hard,https://leetcode.com/problems/construct-target-array-with-multiple-sums,"Heap, Greedy",
+573,Squirrel Simulation,Medium,https://leetcode.com/problems/squirrel-simulation,"Greedy, Math",
+625,Minimum Factorization,Medium,https://leetcode.com/problems/minimum-factorization,"Math, Greedy",
+1400,Construct K Palindrome Strings,Medium,https://leetcode.com/problems/construct-k-palindrome-strings,"Greedy, Hash Map",
+649,Dota2 Senate,Medium,https://leetcode.com/problems/dota2-senate,"Greedy, Queue",
+1196,How Many Apples Can You Put into the Basket,Easy,https://leetcode.com/problems/how-many-apples-can-you-put-into-the-basket,Greedy,
+1353,Maximum Number of Events That Can Be Attended,Medium,https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended,"Greedy, Sorting",
+1014,Best Sightseeing Pair,Medium,https://leetcode.com/problems/best-sightseeing-pair,"Array, Greedy",
+781,Rabbits in Forest,Medium,https://leetcode.com/problems/rabbits-in-forest,Greedy,
+1333,Filter Restaurants by Vegan-Friendly & Price and Distance,Medium,https://leetcode.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance,"Sorting, Greedy",

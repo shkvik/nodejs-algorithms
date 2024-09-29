@@ -1,0 +1,37 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+2,Add Two Numbers,Medium, https://leetcode.com/problems/add-two-numbers," ""Linked List","[' Math""']"
+21,Merge Two Sorted Lists,Easy, https://leetcode.com/problems/merge-two-sorted-lists," ""Linked List","[' Recursion""']"
+82,Remove Duplicates from Sorted List II,Medium, https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii," ""Linked List","[' Two Pointers""']"
+206,Reverse Linked List,Easy, https://leetcode.com/problems/reverse-linked-list," ""Linked List","[' Recursion""']"
+725,Split Linked List in Parts,Medium, https://leetcode.com/problems/split-linked-list-in-parts," ""Linked List""",
+25,Reverse Nodes in k-Group,Hard, https://leetcode.com/problems/reverse-nodes-in-k-group," ""Linked List","[' Recursion""']"
+142,Linked List Cycle II,Medium, https://leetcode.com/problems/linked-list-cycle-ii," ""Linked List","[' Two Pointers""']"
+24,Swap Nodes in Pairs,Medium, https://leetcode.com/problems/swap-nodes-in-pairs," ""Linked List","[' Recursion""']"
+148,Sort List,Medium, https://leetcode.com/problems/sort-list," ""Linked List","[' Sorting', ' Divide and Conquer""']"
+92,Reverse Linked List II,Medium, https://leetcode.com/problems/reverse-linked-list-ii," ""Linked List""",
+234,Palindrome Linked List,Easy, https://leetcode.com/problems/palindrome-linked-list," ""Linked List","[' Two Pointers""']"
+61,Rotate List,Medium, https://leetcode.com/problems/rotate-list," ""Linked List","[' Two Pointers""']"
+23,Merge k Sorted Lists,Hard, https://leetcode.com/problems/merge-k-sorted-lists," ""Linked List","[' Divide and Conquer', ' Heap (Priority Queue)""']"
+876,Middle of the Linked List,Easy, https://leetcode.com/problems/middle-of-the-linked-list," ""Linked List","[' Two Pointers""']"
+83,Remove Duplicates from Sorted List,Easy, https://leetcode.com/problems/remove-duplicates-from-sorted-list," ""Linked List""",
+237,Delete Node in a Linked List,Easy, https://leetcode.com/problems/delete-node-in-a-linked-list," ""Linked List""",
+141,Linked List Cycle,Easy, https://leetcode.com/problems/linked-list-cycle," ""Linked List","[' Two Pointers""']"
+143,Reorder List,Medium, https://leetcode.com/problems/reorder-list," ""Linked List","[' Two Pointers', ' Recursion""']"
+19,Remove Nth Node From End of List,Medium, https://leetcode.com/problems/remove-nth-node-from-end-of-list," ""Linked List","[' Two Pointers""']"
+203,Remove Linked List Elements,Easy, https://leetcode.com/problems/remove-linked-list-elements," ""Linked List""",
+160,Intersection of Two Linked Lists,Easy, https://leetcode.com/problems/intersection-of-two-linked-lists," ""Linked List","[' Two Pointers""']"
+109,Convert Sorted List to Binary Search Tree,Medium, https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree," ""Linked List","[' Divide and Conquer', ' Tree""']"
+445,Add Two Numbers II,Medium, https://leetcode.com/problems/add-two-numbers-ii," ""Linked List","[' Math', ' Stack""']"
+86,Partition List,Medium, https://leetcode.com/problems/partition-list," ""Linked List","[' Two Pointers""']"
+430,Flatten a Multilevel Doubly Linked List,Medium, https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list," ""Linked List","[' Depth-First Search', ' Doubly Linked List""']"
+708,Insert into a Sorted Circular Linked List,Medium, https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list," ""Linked List""",
+382,Linked List Random Node,Medium, https://leetcode.com/problems/linked-list-random-node," ""Linked List","[' Math', ' Reservoir Sampling""']"
+328,Odd Even Linked List,Medium, https://leetcode.com/problems/odd-even-linked-list," ""Linked List""",
+369,Plus One Linked List,Medium, https://leetcode.com/problems/plus-one-linked-list," ""Linked List""",
+707,Design Linked List,Medium, https://leetcode.com/problems/design-linked-list," ""Linked List","[' Design""']"
+147,Insertion Sort List,Medium, https://leetcode.com/problems/insertion-sort-list," ""Linked List","[' Sorting""']"
+1290,Convert Binary Number in a Linked List to Integer,Easy, https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer," ""Linked List","[' Math""']"
+1265,Print Immutable Linked List in Reverse,Medium,https://leetcode.com/problems/print-immutable-linked-list-in-reverse,"Linked List, Stack, Recursion",
+817,Linked List Components,Medium,https://leetcode.com/problems/linked-list-components,Linked List,
+1474,Delete N Nodes After M Nodes of a Linked List,Easy,https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list,Linked List,
+1171,Remove Zero Sum Consecutive Nodes from Linked List,Medium,https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list,"Linked List, Prefix Sum",

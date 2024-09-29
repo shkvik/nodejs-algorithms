@@ -1,0 +1,120 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+741,Cherry Pickup,Hard, https://leetcode.com/problems/cherry-pickup," ""Dynamic Programming","[' Matrix""']"
+115,Distinct Subsequences,Hard, https://leetcode.com/problems/distinct-subsequences," ""Dynamic Programming","[' String""']"
+368,Largest Divisible Subset,Medium, https://leetcode.com/problems/largest-divisible-subset," ""Dynamic Programming","[' Math""']"
+312,Burst Balloons,Hard, https://leetcode.com/problems/burst-balloons," ""Dynamic Programming","[' Divide and Conquer""']"
+221,Maximal Square,Medium, https://leetcode.com/problems/maximal-square," ""Dynamic Programming""",
+322,Coin Change,Medium, https://leetcode.com/problems/coin-change," ""Dynamic Programming","[' Breadth-First Search""']"
+198,House Robber,Easy, https://leetcode.com/problems/house-robber," ""Dynamic Programming""",
+64,Minimum Path Sum,Medium, https://leetcode.com/problems/minimum-path-sum," ""Dynamic Programming""",
+44,Wildcard Matching,Hard, https://leetcode.com/problems/wildcard-matching," ""Dynamic Programming","[' Greedy', ' String""']"
+70,Climbing Stairs,Easy, https://leetcode.com/problems/climbing-stairs," ""Dynamic Programming""",
+329,Longest Increasing Path in a Matrix,Hard, https://leetcode.com/problems/longest-increasing-path-in-a-matrix," ""Dynamic Programming","[' Depth-First Search', ' Topological Sort""']"
+96,Unique Binary Search Trees,Medium, https://leetcode.com/problems/unique-binary-search-trees," ""Dynamic Programming","[' Tree""']"
+139,Word Break,Medium, https://leetcode.com/problems/word-break," ""Dynamic Programming","[' Hash Table""']"
+10,Regular Expression Matching,Hard, https://leetcode.com/problems/regular-expression-matching," ""Dynamic Programming","[' Recursion', ' String""']"
+91,Decode Ways,Medium, https://leetcode.com/problems/decode-ways," ""Dynamic Programming","[' String""']"
+446,Arithmetic Slices II - Subsequence,Hard, https://leetcode.com/problems/arithmetic-slices-ii-subsequence," ""Dynamic Programming""",
+95,Unique Binary Search Trees II,Medium, https://leetcode.com/problems/unique-binary-search-trees-ii," ""Dynamic Programming","[' Tree""']"
+375,Guess Number Higher or Lower II,Medium, https://leetcode.com/problems/guess-number-higher-or-lower-ii," ""Dynamic Programming","[' Binary Search""']"
+32,Longest Valid Parentheses,Hard, https://leetcode.com/problems/longest-valid-parentheses," ""Dynamic Programming","[' Stack', ' String""']"
+877,Stone Game,Medium, https://leetcode.com/problems/stone-game," ""Dynamic Programming","[' Math', ' Game Theory""']"
+62,Unique Paths,Medium, https://leetcode.com/problems/unique-paths," ""Dynamic Programming""",
+787,Cheapest Flights Within K Stops,Medium, https://leetcode.com/problems/cheapest-flights-within-k-stops," ""Dynamic Programming","[' Graph', ' Shortest Path""']"
+1235,Maximum Profit in Job Scheduling,Hard, https://leetcode.com/problems/maximum-profit-in-job-scheduling," ""Dynamic Programming","[' Binary Search', ' Sorting""']"
+1223,Dice Roll Simulation,Medium, https://leetcode.com/problems/dice-roll-simulation," ""Dynamic Programming""",
+1411,Number of Ways to Paint N × 3 Grid,Hard, https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid," ""Dynamic Programming""",
+740,Delete and Earn,Medium, https://leetcode.com/problems/delete-and-earn," ""Dynamic Programming""",
+1425,Constrained Subsequence Sum,Hard, https://leetcode.com/problems/constrained-subsequence-sum," ""Dynamic Programming","[' Queue', ' Sliding Window""']"
+1000,Minimum Cost to Merge Stones,Hard, https://leetcode.com/problems/minimum-cost-to-merge-stones," ""Dynamic Programming""",
+1155,Number of Dice Rolls With Target Sum,Medium, https://leetcode.com/problems/number-of-dice-rolls-with-target-sum," ""Dynamic Programming""",
+97,Interleaving String,Hard, https://leetcode.com/problems/interleaving-string," ""Dynamic Programming","[' String""']"
+403,Frog Jump,Hard, https://leetcode.com/problems/frog-jump," ""Dynamic Programming","[' Depth-First Search""']"
+688,Knight Probability in Chessboard,Medium, https://leetcode.com/problems/knight-probability-in-chessboard," ""Dynamic Programming""",
+518,Coin Change 2,Medium, https://leetcode.com/problems/coin-change-2," ""Dynamic Programming""",
+466,Count The Repetitions,Hard, https://leetcode.com/problems/count-the-repetitions," ""Dynamic Programming","[' Greedy""']"
+1066,Campus Bikes II,Medium, https://leetcode.com/problems/campus-bikes-ii," ""Dynamic Programming","[' Backtracking""']"
+1143,Longest Common Subsequence,Medium, https://leetcode.com/problems/longest-common-subsequence," ""Dynamic Programming","[' String""']"
+337,House Robber III,Medium, https://leetcode.com/problems/house-robber-iii," ""Dynamic Programming","[' Tree', ' Depth-First Search""']"
+264,Ugly Number II,Medium, https://leetcode.com/problems/ugly-number-ii," ""Dynamic Programming","[' Heap (Priority Queue)""']"
+983,Minimum Cost For Tickets,Medium, https://leetcode.com/problems/minimum-cost-for-tickets," ""Dynamic Programming""",
+516,Longest Palindromic Subsequence,Medium, https://leetcode.com/problems/longest-palindromic-subsequence," ""Dynamic Programming","[' String""']"
+351,Android Unlock Patterns,Medium, https://leetcode.com/problems/android-unlock-patterns," ""Dynamic Programming","[' Backtracking""']"
+397,Integer Replacement,Medium, https://leetcode.com/problems/integer-replacement," ""Dynamic Programming","[' Math', ' Bit Manipulation""']"
+338,Counting Bits,Medium, https://leetcode.com/problems/counting-bits," ""Dynamic Programming","[' Bit Manipulation""']"
+847,Shortest Path Visiting All Nodes,Hard, https://leetcode.com/problems/shortest-path-visiting-all-nodes," ""Dynamic Programming","[' Bit Manipulation', ' Breadth-First Search', ' Graph""']"
+377,Combination Sum IV,Medium, https://leetcode.com/problems/combination-sum-iv," ""Dynamic Programming""",
+1259,Handshakes That Don't Cross,Hard, https://leetcode.com/problems/handshakes-that-dont-cross," ""Dynamic Programming","[' Math', ' Combinatorics""']"
+1278,Palindrome Partitioning III,Hard, https://leetcode.com/problems/palindrome-partitioning-iii," ""Dynamic Programming""",
+837,New 21 Game,Medium, https://leetcode.com/problems/new-21-game," ""Dynamic Programming","[' Math', ' Sliding Window', ' Probability and Statistics""']"
+576,Out of Boundary Paths,Medium, https://leetcode.com/problems/out-of-boundary-paths," ""Dynamic Programming""",
+650,2 Keys Keyboard,Medium, https://leetcode.com/problems/2-keys-keyboard," ""Dynamic Programming","[' Greedy""']"
+935,Knight Dialer,Medium, https://leetcode.com/problems/knight-dialer," ""Dynamic Programming","[' Memoization""']"
+1220,Count Vowels Permutation,Hard, https://leetcode.com/problems/count-vowels-permutation," ""Dynamic Programming""",
+920,Number of Music Playlists,Hard, https://leetcode.com/problems/number-of-music-playlists," ""Dynamic Programming""",
+1137,N-th Tribonacci Number,Easy, https://leetcode.com/problems/n-th-tribonacci-number," ""Dynamic Programming","[' Math', ' Memoization""']"
+968,Binary Tree Cameras,Hard, https://leetcode.com/problems/binary-tree-cameras," ""Dynamic Programming","[' Tree', ' Depth-First Search', ' Binary Tree""']"
+1269,Number of Ways to Stay in the Same Place After Some Steps,Hard, https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps," ""Dynamic Programming""",
+568,Maximum Vacation Days,Hard, https://leetcode.com/problems/maximum-vacation-days," ""Dynamic Programming","[' Depth-First Search""']"
+730,Count Different Palindromic Subsequences,Hard, https://leetcode.com/problems/count-different-palindromic-subsequences," ""Dynamic Programming""",
+887,Super Egg Drop,Hard, https://leetcode.com/problems/super-egg-drop," ""Dynamic Programming","[' Math', ' Binary Search""']"
+691,Stickers to Spell Word,Hard, https://leetcode.com/problems/stickers-to-spell-word," ""Dynamic Programming","[' Backtracking', ' Bit Manipulation""']"
+552,Student Attendance Record II,Hard, https://leetcode.com/problems/student-attendance-record-ii," ""Dynamic Programming""",
+1240,Tiling a Rectangle with the Fewest Squares,Hard, https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares," ""Dynamic Programming","[' Backtracking""']"
+818,Race Car,Hard, https://leetcode.com/problems/race-car," ""Dynamic Programming","[' Breadth-First Search""']"
+1406,Stone Game III,Hard,https://leetcode.com/problems/stone-game-iii,"Dynamic Programming, Game Theory",
+913,Cat and Mouse,Hard,https://leetcode.com/problems/cat-and-mouse,"Graph, Dynamic Programming, Minimax",
+551,Student Attendance Record I,Easy,https://leetcode.com/problems/student-attendance-record-i,"String, Dynamic Programming",
+1444,Number of Ways of Cutting a Pizza,Hard,https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza,"Dynamic Programming, Matrix",
+894,All Possible Full Binary Trees,Medium,https://leetcode.com/problems/all-possible-full-binary-trees,"Tree, Dynamic Programming",
+418,Sentence Screen Fitting,Medium,https://leetcode.com/problems/sentence-screen-fitting,"String, Dynamic Programming",
+276,Paint Fence,Easy,https://leetcode.com/problems/paint-fence,Dynamic Programming,
+1218,Longest Arithmetic Subsequence of Given Difference,Medium,https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference,"Hash Table, Dynamic Programming",
+1504,Count Submatrices With All Ones,Medium,https://leetcode.com/problems/count-submatrices-with-all-ones,"Array, Dynamic Programming",
+467,Unique Substrings in Wraparound String,Medium,https://leetcode.com/problems/unique-substrings-in-wraparound-string,Dynamic Programming,
+975,Odd Even Jump,Hard,https://leetcode.com/problems/odd-even-jump,"Dynamic Programming, Stack",
+799,Champagne Tower,Medium,https://leetcode.com/problems/champagne-tower,Dynamic Programming,
+926,Flip String to Monotone Increasing,Medium,https://leetcode.com/problems/flip-string-to-monotone-increasing,"Dynamic Programming, String, Greedy",
+960,Delete Columns to Make Sorted III,Hard,https://leetcode.com/problems/delete-columns-to-make-sorted-iii,"Dynamic Programming, Greedy",
+464,Can I Win,Medium,https://leetcode.com/problems/can-i-win,"Dynamic Programming, Memoization",
+940,Distinct Subsequences II,Hard,https://leetcode.com/problems/distinct-subsequences-ii,Dynamic Programming,
+834,Sum of Distances in Tree,Hard,https://leetcode.com/problems/sum-of-distances-in-tree,"Tree, Dynamic Programming",
+294,Flip Game II,Medium,https://leetcode.com/problems/flip-game-ii,"Dynamic Programming, Backtracking",
+1547,Minimum Cost to Cut a Stick,Hard,https://leetcode.com/problems/minimum-cost-to-cut-a-stick,"Dynamic Programming, Greedy",
+790,Domino and Tromino Tiling,Medium,https://leetcode.com/problems/domino-and-tromino-tiling,Dynamic Programming,
+487,Max Consecutive Ones II,Medium,https://leetcode.com/problems/max-consecutive-ones-ii,Dynamic Programming,
+583,Delete Operation for Two Strings,Medium,https://leetcode.com/problems/delete-operation-for-two-strings,Dynamic Programming,
+474,Ones and Zeroes,Medium,https://leetcode.com/problems/ones-and-zeroes,Dynamic Programming,
+357,Count Numbers with Unique Digits,Medium,https://leetcode.com/problems/count-numbers-with-unique-digits,"Dynamic Programming, Math",
+514,Freedom Trail,Hard,https://leetcode.com/problems/freedom-trail,"Dynamic Programming, Breadth-First Search, Depth-First Search",
+526,Beautiful Arrangement,Medium,https://leetcode.com/problems/beautiful-arrangement,"Backtracking, Dynamic Programming",
+638,Shopping Offers,Medium,https://leetcode.com/problems/shopping-offers,"Dynamic Programming, Backtracking",
+651,4 Keys Keyboard,Medium,https://leetcode.com/problems/4-keys-keyboard,"Dynamic Programming, Greedy",
+656,Coin Path,Hard,https://leetcode.com/problems/coin-path,"Dynamic Programming, Heap",
+808,Soup Servings,Medium,https://leetcode.com/problems/soup-servings,"Dynamic Programming, Math",
+838,Push Dominoes,Medium,https://leetcode.com/problems/push-dominoes,"Two Pointers, Dynamic Programming",
+879,Profitable Schemes,Hard,https://leetcode.com/problems/profitable-schemes,Dynamic Programming,
+1012,Numbers With Repeated Digits,Hard,https://leetcode.com/problems/numbers-with-repeated-digits,"Dynamic Programming, Math",
+1289,Minimum Falling Path Sum II,Hard,https://leetcode.com/problems/minimum-falling-path-sum-ii,Dynamic Programming,
+1147,Longest Chunked Palindrome Decomposition,Hard,https://leetcode.com/problems/longest-chunked-palindrome-decomposition,"String, Dynamic Programming",
+1387,Sort Integers by The Power Value,Medium,https://leetcode.com/problems/sort-integers-by-the-power-value,"Dynamic Programming, Sorting",
+1388,Pizza With 3n Slices,Hard,https://leetcode.com/problems/pizza-with-3n-slices,"Dynamic Programming, Greedy",
+1449,Form Largest Integer With Digits That Add up to Target,Hard,https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target,Dynamic Programming,
+1494,Parallel Courses II,Hard,https://leetcode.com/problems/parallel-courses-ii,"Dynamic Programming, Bit Manipulation, Graph",
+1246,Palindrome Removal,Hard,https://leetcode.com/problems/palindrome-removal,Dynamic Programming,
+1092,Shortest Common Supersequence,Hard,https://leetcode.com/problems/shortest-common-supersequence,Dynamic Programming,
+1458,Max Dot Product of Two Subsequences,Hard,https://leetcode.com/problems/max-dot-product-of-two-subsequences,Dynamic Programming,
+1510,Stone Game IV,Hard,https://leetcode.com/problems/stone-game-iv,"Dynamic Programming, Math",
+1227,Airplane Seat Assignment Probability,Medium,https://leetcode.com/problems/airplane-seat-assignment-probability,"Math, Dynamic Programming",
+664,Strange Printer,Hard,https://leetcode.com/problems/strange-printer,Dynamic Programming,
+1473,Paint House III,Hard,https://leetcode.com/problems/paint-house-iii,Dynamic Programming,
+600,Non-negative Integers without Consecutive Ones,Hard,https://leetcode.com/problems/non-negative-integers-without-consecutive-ones,Dynamic Programming,
+1183,Maximum Number of Ones,Hard,https://leetcode.com/problems/maximum-number-of-ones,"Greedy, Dynamic Programming",
+1301,Number of Paths with Max Score,Hard,https://leetcode.com/problems/number-of-paths-with-max-score,"Dynamic Programming, Graph",
+1349,Maximum Students Taking Exam,Hard,https://leetcode.com/problems/maximum-students-taking-exam,"Dynamic Programming, Bit Manipulation",
+964,Least Operators to Express Number,Hard,https://leetcode.com/problems/least-operators-to-express-number,Dynamic Programming,
+712,Minimum ASCII Delete Sum for Two Strings,Medium,https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings,Dynamic Programming,
+1230,Toss Strange Coins,Medium,https://leetcode.com/problems/toss-strange-coins,"Dynamic Programming, Probability",
+1186,Maximum Subarray Sum with One Deletion,Medium,https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion,Dynamic Programming,
+1039,Minimum Score Triangulation of Polygon,Medium,https://leetcode.com/problems/minimum-score-triangulation-of-polygon,"Dynamic Programming, Geometry",
+629,K Inverse Pairs Array,Hard,https://leetcode.com/problems/k-inverse-pairs-array,Dynamic Programming,

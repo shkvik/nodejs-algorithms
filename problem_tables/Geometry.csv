@@ -1,0 +1,13 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+836,Rectangle Overlap,Easy, https://leetcode.com/problems/rectangle-overlap," ""Geometry""",
+1515,Best Position for a Service Centre,Hard, https://leetcode.com/problems/best-position-for-a-service-centre," ""Geometry","[' Math""']"
+1453,Maximum Number of Darts Inside of a Circular Dartboard,Hard, https://leetcode.com/problems/maximum-number-of-darts-inside-of-a-circular-dartboard," ""Geometry","[' Math""']"
+850,Rectangle Area II,Hard, https://leetcode.com/problems/rectangle-area-ii," ""Geometry","[' Segment Tree', ' Line Sweep""']"
+469,Convex Polygon,Medium,https://leetcode.com/problems/convex-polygon,"Geometry, Math",
+587,Erect the Fence,Hard,https://leetcode.com/problems/erect-the-fence,"Geometry, Math",
+812,Largest Triangle Area,Easy,https://leetcode.com/problems/largest-triangle-area,"Math, Geometry",
+1037,Valid Boomerang,Easy,https://leetcode.com/problems/valid-boomerang,Geometry,
+1401,Circle and Rectangle Overlapping,Medium,https://leetcode.com/problems/circle-and-rectangle-overlapping,"Geometry, Math",
+1232,Check If It Is a Straight Line,Easy,https://leetcode.com/problems/check-if-it-is-a-straight-line,"Geometry, Math",
+1459,Rectangles Area,Medium,https://leetcode.com/problems/rectangles-area,"Geometry, Math",
+1039,Minimum Score Triangulation of Polygon,Medium,https://leetcode.com/problems/minimum-score-triangulation-of-polygon,"Dynamic Programming, Geometry",

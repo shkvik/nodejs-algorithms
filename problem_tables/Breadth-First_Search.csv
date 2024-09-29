@@ -1,0 +1,38 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+994,Rotting Oranges,Medium, https://leetcode.com/problems/rotting-oranges," ""Breadth-First Search""",
+773,Sliding Puzzle,Hard, https://leetcode.com/problems/sliding-puzzle," ""Breadth-First Search","[' Array', ' Matrix""']"
+864,Shortest Path to Get All Keys,Hard, https://leetcode.com/problems/shortest-path-to-get-all-keys," ""Breadth-First Search","[' Bit Manipulation""']"
+1284,Minimum Number of Flips to Convert Binary Matrix to Zero Matrix,Hard, https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix," ""Breadth-First Search","[' Bit Manipulation""']"
+1298,Maximum Candies You Can Get from Boxes,Hard, https://leetcode.com/problems/maximum-candies-you-can-get-from-boxes," ""Breadth-First Search","[' Depth-First Search""']"
+126,Word Ladder II,Hard, https://leetcode.com/problems/word-ladder-ii," ""Breadth-First Search","[' Backtracking', ' Hash Table""']"
+909,Snakes and Ladders,Medium, https://leetcode.com/problems/snakes-and-ladders," ""Breadth-First Search","[' Array', ' Matrix""']"
+490,The Maze,Medium, https://leetcode.com/problems/the-maze," ""Breadth-First Search","[' Depth-First Search""']"
+815,Bus Routes,Hard, https://leetcode.com/problems/bus-routes," ""Breadth-First Search","[' Array""']"
+1091,Shortest Path in Binary Matrix,Medium, https://leetcode.com/problems/shortest-path-in-binary-matrix," ""Breadth-First Search""",
+317,Shortest Distance from All Buildings,Hard, https://leetcode.com/problems/shortest-distance-from-all-buildings," ""Breadth-First Search","[' Matrix""']"
+675,Cut Off Trees for Golf Event,Hard, https://leetcode.com/problems/cut-off-trees-for-golf-event," ""Breadth-First Search","[' Array', ' Matrix""']"
+1197,Minimum Knight Moves,Medium, https://leetcode.com/problems/minimum-knight-moves," ""Breadth-First Search","[' Dynamic Programming""']"
+1215,Stepping Numbers,Medium, https://leetcode.com/problems/stepping-numbers," ""Breadth-First Search""",
+854,K-Similar Strings,Hard, https://leetcode.com/problems/k-similar-strings," ""Breadth-First Search","[' String""']"
+286,Walls and Gates,Medium, https://leetcode.com/problems/walls-and-gates," ""Breadth-First Search","[' Depth-First Search""']"
+301,Remove Invalid Parentheses,Hard, https://leetcode.com/problems/remove-invalid-parentheses," ""Breadth-First Search","[' String', ' Backtracking""']"
+310,Minimum Height Trees,Medium, https://leetcode.com/problems/minimum-height-trees," ""Breadth-First Search","[' Graph', ' Topological Sort""']"
+1162,As Far from Land as Possible,Medium, https://leetcode.com/problems/as-far-from-land-as-possible," ""Breadth-First Search","[' Matrix""']"
+505,The Maze II,Medium, https://leetcode.com/problems/the-maze-ii," ""Breadth-First Search","[' Graph', ' Heap (Priority Queue)""']"
+433,Minimum Genetic Mutation,Medium, https://leetcode.com/problems/minimum-genetic-mutation," ""Breadth-First Search","[' Hash Table', ' String""']"
+752,Open the Lock,Medium, https://leetcode.com/problems/open-the-lock," ""Breadth-First Search""",
+1311,Get Watched Videos by Your Friends,Medium, https://leetcode.com/problems/get-watched-videos-by-your-friends," ""Breadth-First Search","[' Array', ' Hash Table""']"
+1129,Shortest Path with Alternating Colors,Medium, https://leetcode.com/problems/shortest-path-with-alternating-colors," ""Breadth-First Search","[' Graph""']"
+1293,Shortest Path in a Grid with Obstacles Elimination,Hard, https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination," ""Breadth-First Search","[' Matrix""']"
+1466,Reorder Routes to Make All Paths Lead to the City Zero,Medium,https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero,"Graph, Depth-First Search, Breadth-First Search",
+802,Find Eventual Safe States,Medium,https://leetcode.com/problems/find-eventual-safe-states,"Graph, Depth-First Search, Breadth-First Search, Topological Sort",
+1036,Escape a Large Maze,Hard,https://leetcode.com/problems/escape-a-large-maze,"Graph, Breadth-First Search",
+499,The Maze III,Hard,https://leetcode.com/problems/the-maze-iii,"Graph, Breadth-First Search, Priority Queue",
+531,Lonely Pixel I,Medium,https://leetcode.com/problems/lonely-pixel-i,"Array, Depth-First Search, Breadth-First Search",
+514,Freedom Trail,Hard,https://leetcode.com/problems/freedom-trail,"Dynamic Programming, Breadth-First Search, Depth-First Search",
+1020,Number of Enclaves,Medium,https://leetcode.com/problems/number-of-enclaves,"Graph, Depth-First Search, Breadth-First Search",
+1302,Deepest Leaves Sum,Medium,https://leetcode.com/problems/deepest-leaves-sum,"Tree, Breadth-First Search",
+1377,Frog Position After T Seconds,Hard,https://leetcode.com/problems/frog-position-after-t-seconds,"Tree, Depth-First Search, Breadth-First Search, Graph",
+1210,Minimum Moves to Reach Target with Rotations,Hard,https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations,"Breadth-First Search, Matrix",
+1306,Jump Game III,Medium,https://leetcode.com/problems/jump-game-iii,"Depth-First Search, Breadth-First Search",
+1030,Matrix Cells in Distance Order,Easy,https://leetcode.com/problems/matrix-cells-in-distance-order,"Breadth-First Search, Sorting",

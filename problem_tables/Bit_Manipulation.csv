@@ -1,0 +1,23 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+191,Number of 1 Bits,Easy, https://leetcode.com/problems/number-of-1-bits," ""Bit Manipulation""",
+137,Single Number II,Medium, https://leetcode.com/problems/single-number-ii," ""Bit Manipulation""",
+201,Bitwise AND of Numbers Range,Medium, https://leetcode.com/problems/bitwise-and-of-numbers-range," ""Bit Manipulation""",
+190,Reverse Bits,Easy, https://leetcode.com/problems/reverse-bits," ""Bit Manipulation""",
+461,Hamming Distance,Easy, https://leetcode.com/problems/hamming-distance," ""Bit Manipulation""",
+943,Find the Shortest Superstring,Hard, https://leetcode.com/problems/find-the-shortest-superstring," ""Bit Manipulation","[' Dynamic Programming', ' Backtracking""']"
+1404,Number of Steps to Reduce a Number in Binary Representation to One,Medium, https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one," ""Bit Manipulation","[' String', ' Greedy""']"
+1457,Pseudo-Palindromic Paths in a Binary Tree,Medium, https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree," ""Bit Manipulation","[' Tree', ' Depth-First Search', ' Binary Tree""']"
+401,Binary Watch,Easy, https://leetcode.com/problems/binary-watch," ""Bit Manipulation","[' Backtracking""']"
+476,Number Complement,Easy, https://leetcode.com/problems/number-complement," ""Bit Manipulation""",
+1009,Complement of Base 10 Integer,Easy, https://leetcode.com/problems/complement-of-base-10-integer," ""Bit Manipulation""",
+1125,Smallest Sufficient Team,Hard, https://leetcode.com/problems/smallest-sufficient-team," ""Bit Manipulation","[' Dynamic Programming""']"
+1342,Number of Steps to Reduce a Number to Zero,Easy,https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero,"Math, Bit Manipulation",
+318,Maximum Product of Word Lengths,Medium,https://leetcode.com/problems/maximum-product-of-word-lengths,"Bit Manipulation, String",
+411,Minimum Unique Word Abbreviation,Hard,https://leetcode.com/problems/minimum-unique-word-abbreviation,"Bit Manipulation, Backtracking",
+1494,Parallel Courses II,Hard,https://leetcode.com/problems/parallel-courses-ii,"Dynamic Programming, Bit Manipulation, Graph",
+672,Bulb Switcher II,Medium,https://leetcode.com/problems/bulb-switcher-ii,"Math, Bit Manipulation",
+1318,Minimum Flips to Make a OR b Equal to c,Medium,https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c,Bit Manipulation,
+1371,Find the Longest Substring Containing Vowels in Even Counts,Medium,https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts,"Bit Manipulation, String",
+1349,Maximum Students Taking Exam,Hard,https://leetcode.com/problems/maximum-students-taking-exam,"Dynamic Programming, Bit Manipulation",
+1238,Circular Permutation in Binary Representation,Medium,https://leetcode.com/problems/circular-permutation-in-binary-representation,Bit Manipulation,
+693,Binary Number with Alternating Bits,Easy,https://leetcode.com/problems/binary-number-with-alternating-bits,Bit Manipulation,

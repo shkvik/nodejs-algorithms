@@ -1,0 +1,42 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+739,Daily Temperatures,Medium, https://leetcode.com/problems/daily-temperatures," ""Stack","[' Array', ' Monotonic Stack""']"
+85,Maximal Rectangle,Hard, https://leetcode.com/problems/maximal-rectangle," ""Stack","[' Dynamic Programming""']"
+155,Min Stack,Easy, https://leetcode.com/problems/min-stack," ""Stack","[' Design""']"
+726,Number of Atoms,Hard, https://leetcode.com/problems/number-of-atoms," ""Stack","[' Hash Table""']"
+402,Remove K Digits,Medium, https://leetcode.com/problems/remove-k-digits," ""Stack","[' Greedy""']"
+316,Remove Duplicate Letters,Hard, https://leetcode.com/problems/remove-duplicate-letters," ""Stack","[' Greedy', ' String""']"
+71,Simplify Path,Medium, https://leetcode.com/problems/simplify-path," ""Stack","[' String""']"
+341,Flatten Nested List Iterator,Medium, https://leetcode.com/problems/flatten-nested-list-iterator," ""Stack","[' Design""']"
+385,Mini Parser,Medium, https://leetcode.com/problems/mini-parser," ""Stack","[' String', ' Depth-First Search""']"
+394,Decode String,Medium, https://leetcode.com/problems/decode-string," ""Stack","[' Depth-First Search', ' String""']"
+772,Basic Calculator III,Hard, https://leetcode.com/problems/basic-calculator-iii," ""Stack","[' Math""']"
+456,132 Pattern,Medium, https://leetcode.com/problems/132-pattern," ""Stack","[' Greedy""']"
+735,Asteroid Collision,Medium, https://leetcode.com/problems/asteroid-collision," ""Stack""",
+1130,Minimum Cost Tree From Leaf Values,Medium, https://leetcode.com/problems/minimum-cost-tree-from-leaf-values," ""Stack","[' Greedy', ' Dynamic Programming""']"
+901,Online Stock Span,Medium, https://leetcode.com/problems/online-stock-span," ""Stack","[' Design', ' Monotonic Stack""']"
+1172,Dinner Plate Stacks,Hard, https://leetcode.com/problems/dinner-plate-stacks," ""Stack","[' Design', ' Heap (Priority Queue)""']"
+716,Max Stack,Easy, https://leetcode.com/problems/max-stack," ""Stack","[' Design', ' Linked List""']"
+150,Evaluate Reverse Polish Notation,Medium, https://leetcode.com/problems/evaluate-reverse-polish-notation," ""Stack","[' Math""']"
+1019,Next Greater Node In Linked List,Medium, https://leetcode.com/problems/next-greater-node-in-linked-list," ""Stack","[' Linked List""']"
+1249,Minimum Remove to Make Valid Parentheses,Medium, https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses," ""Stack","[' String""']"
+1047,Remove All Adjacent Duplicates In String,Easy, https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string," ""Stack","[' String""']"
+1081,Smallest Subsequence of Distinct Characters,Medium, https://leetcode.com/problems/smallest-subsequence-of-distinct-characters," ""Stack","[' Greedy', ' String', ' Monotonic Stack""']"
+232,Implement Queue using Stacks,Easy, https://leetcode.com/problems/implement-queue-using-stacks," ""Stack","[' Design', ' Queue""']"
+921,Minimum Add to Make Parentheses Valid,Medium, https://leetcode.com/problems/minimum-add-to-make-parentheses-valid," ""Stack","[' Greedy', ' String""']"
+225,Implement Stack using Queues,Easy, https://leetcode.com/problems/implement-stack-using-queues," ""Stack","[' Design', ' Queue""']"
+946,Validate Stack Sequences,Medium, https://leetcode.com/problems/validate-stack-sequences," ""Stack","[' Greedy', ' Two Pointers""']"
+1265,Print Immutable Linked List in Reverse,Medium,https://leetcode.com/problems/print-immutable-linked-list-in-reverse,"Linked List, Stack, Recursion",
+769,Max Chunks To Make Sorted,Medium,https://leetcode.com/problems/max-chunks-to-make-sorted,"Array, Stack",
+975,Odd Even Jump,Hard,https://leetcode.com/problems/odd-even-jump,"Dynamic Programming, Stack",
+591,Tag Validator,Hard,https://leetcode.com/problems/tag-validator,"String, Stack",
+768,Max Chunks To Make Sorted II,Hard,https://leetcode.com/problems/max-chunks-to-make-sorted-ii,"Array, Stack, Greedy",
+331,Verify Preorder Serialization of a Binary Tree,Medium,https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree,"Stack, Tree",
+1441,Build an Array With Stack Operations,Easy,https://leetcode.com/problems/build-an-array-with-stack-operations,"Array, Stack, Simulation",
+1544,Make The String Great,Easy,https://leetcode.com/problems/make-the-string-great,"String, Stack",
+1063,Number of Valid Subarrays,Hard,https://leetcode.com/problems/number-of-valid-subarrays,"Array, Stack",
+1124,Longest Well-Performing Interval,Medium,https://leetcode.com/problems/longest-well-performing-interval,"Array, Stack, Prefix Sum",
+255,Verify Preorder Sequence in Binary Search Tree,Medium,https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree,"Stack, Tree",
+1381,Design a Stack With Increment Operation,Medium,https://leetcode.com/problems/design-a-stack-with-increment-operation,"Stack, Design",
+880,Decoded String at Index,Medium,https://leetcode.com/problems/decoded-string-at-index,"Stack, String",
+1410,HTML Entity Parser,Medium,https://leetcode.com/problems/html-entity-parser,"String, Stack",
+439,Ternary Expression Parser,Medium,https://leetcode.com/problems/ternary-expression-parser,"String, Stack",

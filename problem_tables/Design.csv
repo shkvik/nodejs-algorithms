@@ -1,0 +1,23 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+1166,Design File System,Medium, https://leetcode.com/problems/design-file-system," ""Design","[' Trie', ' Hash Table""']"
+251,Flatten 2D Vector,Medium, https://leetcode.com/problems/flatten-2d-vector," ""Design","[' Array', ' Two Pointers', ' Iterator""']"
+588,Design In-Memory File System,Hard, https://leetcode.com/problems/design-in-memory-file-system," ""Design","[' Trie""']"
+642,Design Search Autocomplete System,Hard, https://leetcode.com/problems/design-search-autocomplete-system," ""Design","[' Trie', ' Hash Table""']"
+353,Design Snake Game,Medium, https://leetcode.com/problems/design-snake-game," ""Design","[' Queue""']"
+981,Time Based Key-Value Store,Medium, https://leetcode.com/problems/time-based-key-value-store," ""Design","[' Hash Table', ' Binary Search""']"
+1429,First Unique Number,Medium, https://leetcode.com/problems/first-unique-number," ""Design","[' Queue', ' Hash Table""']"
+1032,Stream of Characters,Hard, https://leetcode.com/problems/stream-of-characters," ""Design","[' Trie', ' String""']"
+715,Range Module,Hard, https://leetcode.com/problems/range-module," ""Design","[' Segment Tree', ' Ordered Set""']"
+732,My Calendar III,Hard, https://leetcode.com/problems/my-calendar-iii," ""Design","[' Segment Tree', ' Ordered Map""']"
+729,My Calendar I,Medium, https://leetcode.com/problems/my-calendar-i," ""Design","[' Segment Tree', ' Ordered Map""']"
+635,Design Log Storage System,Medium, https://leetcode.com/problems/design-log-storage-system," ""Design","[' String""']"
+604,Design Compressed String Iterator,Easy, https://leetcode.com/problems/design-compressed-string-iterator," ""Design","[' Two Pointers""']"
+731,My Calendar II,Medium, https://leetcode.com/problems/my-calendar-ii," ""Design","[' Segment Tree', ' Ordered Map""']"
+281,Zigzag Iterator,Medium, https://leetcode.com/problems/zigzag-iterator," ""Design","[' Two Pointers', ' Queue""']"
+1206,Design Skiplist,Hard, https://leetcode.com/problems/design-skiplist," ""Design","[' Linked List""']"
+1352,Product of the Last K Numbers,Medium,https://leetcode.com/problems/product-of-the-last-k-numbers,"Array, Design",
+1286,Iterator for Combination,Medium,https://leetcode.com/problems/iterator-for-combination,"Backtracking, Design",
+170,Two Sum III - Data structure design,Easy,https://leetcode.com/problems/two-sum-iii-data-structure-design,"Hash Map, Design",
+1381,Design a Stack With Increment Operation,Medium,https://leetcode.com/problems/design-a-stack-with-increment-operation,"Stack, Design",
+1500,Design a File Sharing System,Medium,https://leetcode.com/problems/design-a-file-sharing-system,"Design, Hash Map",
+1348,Tweet Counts Per Frequency,Medium,https://leetcode.com/problems/tweet-counts-per-frequency,"Design, Hash Map",

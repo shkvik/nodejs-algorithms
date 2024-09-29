@@ -1,0 +1,118 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+1096,Brace Expansion II,Hard, https://leetcode.com/problems/brace-expansion-ii," ""String","[' Backtracking', ' Stack""']"
+5,Longest Palindromic Substring,Medium, https://leetcode.com/problems/longest-palindromic-substring," ""String","[' Dynamic Programming""']"
+420,Strong Password Checker,Hard, https://leetcode.com/problems/strong-password-checker," ""String","[' Greedy""']"
+214,Shortest Palindrome,Hard, https://leetcode.com/problems/shortest-palindrome," ""String","[' KMP""']"
+1108,Defanging an IP Address,Easy, https://leetcode.com/problems/defanging-an-ip-address," ""String""",
+6,ZigZag Conversion,Medium, https://leetcode.com/problems/zigzag-conversion," ""String""",
+20,Valid Parentheses,Easy, https://leetcode.com/problems/valid-parentheses," ""String","[' Stack""']"
+8,String to Integer (atoi),Medium, https://leetcode.com/problems/string-to-integer-atoi," ""String""",
+14,Longest Common Prefix,Easy, https://leetcode.com/problems/longest-common-prefix," ""String""",
+929,Unique Email Addresses,Easy, https://leetcode.com/problems/unique-email-addresses," ""String""",
+681,Next Closest Time,Medium, https://leetcode.com/problems/next-closest-time," ""String","[' Enumeration""']"
+856,Score of Parentheses,Medium, https://leetcode.com/problems/score-of-parentheses," ""String","[' Stack""']"
+686,Repeated String Match,Easy, https://leetcode.com/problems/repeated-string-match," ""String","[' Greedy""']"
+709,To Lower Case,Easy, https://leetcode.com/problems/to-lower-case," ""String""",
+65,Valid Number,Hard, https://leetcode.com/problems/valid-number," ""String""",
+72,Edit Distance,Hard, https://leetcode.com/problems/edit-distance," ""String","[' Dynamic Programming""']"
+647,Palindromic Substrings,Medium, https://leetcode.com/problems/palindromic-substrings," ""String","[' Dynamic Programming""']"
+38,Count and Say,Easy, https://leetcode.com/problems/count-and-say," ""String""",
+1190,Reverse Substrings Between Each Pair of Parentheses,Medium, https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses," ""String","[' Stack""']"
+1106,Parsing A Boolean Expression,Hard, https://leetcode.com/problems/parsing-a-boolean-expression," ""String","[' Stack', ' Recursion""']"
+1370,Increasing Decreasing String,Easy, https://leetcode.com/problems/increasing-decreasing-string," ""String","[' Sorting""']"
+678,Valid Parenthesis String,Medium, https://leetcode.com/problems/valid-parenthesis-string," ""String","[' Dynamic Programming', ' Greedy""']"
+555,Split Concatenated Strings,Medium, https://leetcode.com/problems/split-concatenated-strings," ""String""",
+937,Reorder Data in Log Files,Easy, https://leetcode.com/problems/reorder-data-in-log-files," ""String","[' Sorting""']"
+388,Longest Absolute File Path,Medium, https://leetcode.com/problems/longest-absolute-file-path," ""String","[' Stack""']"
+556,Next Greater Element III,Medium, https://leetcode.com/problems/next-greater-element-iii," ""String","[' Greedy""']"
+1100,Find K-Length Substrings With No Repeated Characters,Medium, https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters," ""String","[' Sliding Window""']"
+132,Palindrome Partitioning II,Hard, https://leetcode.com/problems/palindrome-partitioning-ii," ""String","[' Dynamic Programming""']"
+161,One Edit Distance,Medium, https://leetcode.com/problems/one-edit-distance," ""String","[' Two Pointers""']"
+468,Validate IP Address,Medium, https://leetcode.com/problems/validate-ip-address," ""String""",
+727,Minimum Window Subsequence,Hard, https://leetcode.com/problems/minimum-window-subsequence," ""String","[' Dynamic Programming', ' Two Pointers""']"
+796,Rotate String,Easy, https://leetcode.com/problems/rotate-string," ""String","[' String Matching""']"
+158,Read N Characters Given Read4 II - Call multiple times,Hard, https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times," ""String","[' Simulation', ' Interactive""']"
+459,Repeated Substring Pattern,Easy, https://leetcode.com/problems/repeated-substring-pattern," ""String","[' String Matching""']"
+657,Robot Return to Origin,Easy, https://leetcode.com/problems/robot-return-to-origin," ""String","[' Simulation""']"
+1456,Maximum Number of Vowels in a Substring of Given Length,Medium, https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length," ""String","[' Sliding Window""']"
+1065,Index Pairs of a String,Easy, https://leetcode.com/problems/index-pairs-of-a-string," ""String","[' Trie""']"
+1119,Remove Vowels from a String,Easy, https://leetcode.com/problems/remove-vowels-from-a-string," ""String""",
+1408,String Matching in an Array,Easy, https://leetcode.com/problems/string-matching-in-an-array," ""String""",
+87,Scramble String,Hard, https://leetcode.com/problems/scramble-string," ""String","[' Dynamic Programming', ' Recursion""']"
+1021,Remove Outermost Parentheses,Easy, https://leetcode.com/problems/remove-outermost-parentheses," ""String","[' Stack""']"
+1209,Remove All Adjacent Duplicates in String II,Medium, https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii," ""String","[' Stack""']"
+1312,Minimum Insertion Steps to Make a String Palindrome,Hard, https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome," ""String","[' Dynamic Programming""']"
+320,Generalized Abbreviation,Medium, https://leetcode.com/problems/generalized-abbreviation," ""String","[' Backtracking', ' Bit Manipulation""']"
+440,K-th Smallest in Lexicographical Order,Hard, https://leetcode.com/problems/k-th-smallest-in-lexicographical-order," ""String","[' Binary Search""']"
+1419,Minimum Number of Frogs Croaking,Medium, https://leetcode.com/problems/minimum-number-of-frogs-croaking," ""String","[' Greedy', ' Counting""']"
+1374,Generate a String With Characters That Have Odd Counts,Easy, https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts," ""String""",
+306,Additive Number,Medium, https://leetcode.com/problems/additive-number," ""String","[' Backtracking""']"
+1451,Rearrange Words in a Sentence,Medium, https://leetcode.com/problems/rearrange-words-in-a-sentence," ""String","[' Sorting""']"
+824,Goat Latin,Easy, https://leetcode.com/problems/goat-latin," ""String""",
+616,Add Bold Tag in String,Medium, https://leetcode.com/problems/add-bold-tag-in-string," ""String","[' Greedy', ' Trie""']"
+1216,Valid Palindrome III,Hard, https://leetcode.com/problems/valid-palindrome-iii," ""String","[' Dynamic Programming""']"
+157,Read N Characters Given Read4,Easy, https://leetcode.com/problems/read-n-characters-given-read4," ""String","[' Simulation""']"
+936,Stamping The Sequence,Hard, https://leetcode.com/problems/stamping-the-sequence," ""String","[' Greedy""']"
+1055,Shortest Way to Form String,Medium, https://leetcode.com/problems/shortest-way-to-form-string," ""String","[' Greedy', ' Two Pointers""']"
+848,Shifting Letters,Medium, https://leetcode.com/problems/shifting-letters," ""String""",
+1003,Check If Word Is Valid After Substitutions,Medium, https://leetcode.com/problems/check-if-word-is-valid-after-substitutions," ""String","[' Stack""']"
+639,Decode Ways II,Hard, https://leetcode.com/problems/decode-ways-ii," ""String","[' Dynamic Programming""']"
+1163,Last Substring in Lexicographical Order,Hard, https://leetcode.com/problems/last-substring-in-lexicographical-order," ""String","[' Two Pointers""']"
+1427,Perform String Shifts,Easy, https://leetcode.com/problems/perform-string-shifts," ""String""",
+1320,Minimum Distance to Type a Word Using Two Fingers,Hard, https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers," ""String","[' Dynamic Programming""']"
+482,License Key Formatting,Easy, https://leetcode.com/problems/license-key-formatting," ""String""",
+471,Encode String with Shortest Length,Hard, https://leetcode.com/problems/encode-string-with-shortest-length," ""String","[' Dynamic Programming""']"
+1087,Brace Expansion,Medium, https://leetcode.com/problems/brace-expansion," ""String","[' Backtracking""']"
+527,Word Abbreviation,Hard,https://leetcode.com/problems/word-abbreviation,"String, Sorting, Greedy",
+551,Student Attendance Record I,Easy,https://leetcode.com/problems/student-attendance-record-i,"String, Dynamic Programming",
+418,Sentence Screen Fitting,Medium,https://leetcode.com/problems/sentence-screen-fitting,"String, Dynamic Programming",
+1165,Single-Row Keyboard,Easy,https://leetcode.com/problems/single-row-keyboard,String,
+288,Unique Word Abbreviation,Medium,https://leetcode.com/problems/unique-word-abbreviation,"Hash Table, String",
+925,Long Pressed Name,Easy,https://leetcode.com/problems/long-pressed-name,"Two Pointers, String",
+734,Sentence Similarity,Easy,https://leetcode.com/problems/sentence-similarity,"Hash Table, String",
+830,Positions of Large Groups,Easy,https://leetcode.com/problems/positions-of-large-groups,String,
+949,Largest Time for Given Digits,Easy,https://leetcode.com/problems/largest-time-for-given-digits,"Math, String",
+591,Tag Validator,Hard,https://leetcode.com/problems/tag-validator,"String, Stack",
+800,Similar RGB Color,Easy,https://leetcode.com/problems/similar-rgb-color,String,
+926,Flip String to Monotone Increasing,Medium,https://leetcode.com/problems/flip-string-to-monotone-increasing,"Dynamic Programming, String, Greedy",
+318,Maximum Product of Word Lengths,Medium,https://leetcode.com/problems/maximum-product-of-word-lengths,"Bit Manipulation, String",
+748,Shortest Completing Word,Easy,https://leetcode.com/problems/shortest-completing-word,"Hash Table, String",
+917,Reverse Only Letters,Easy,https://leetcode.com/problems/reverse-only-letters,"Two Pointers, String",
+293,Flip Game,Easy,https://leetcode.com/problems/flip-game,String,
+859,Buddy Strings,Easy,https://leetcode.com/problems/buddy-strings,"String, Greedy",
+758,Bold Words in String,Easy,https://leetcode.com/problems/bold-words-in-string,"String, Greedy",
+1138,Alphabet Board Path,Medium,https://leetcode.com/problems/alphabet-board-path,"Hash Table, String",
+481,Magical String,Medium,https://leetcode.com/problems/magical-string,"Two Pointers, String",
+520,Detect Capital,Easy,https://leetcode.com/problems/detect-capital,String,
+521,Longest Uncommon Subsequence I,Easy,https://leetcode.com/problems/longest-uncommon-subsequence-i,String,
+522,Longest Uncommon Subsequence II,Medium,https://leetcode.com/problems/longest-uncommon-subsequence-ii,"String, Sorting",
+816,Ambiguous Coordinates,Medium,https://leetcode.com/problems/ambiguous-coordinates,"String, Backtracking",
+906,Super Palindromes,Hard,https://leetcode.com/problems/super-palindromes,"String, Two Pointers",
+1016,Binary String With Substrings Representing 1 To N,Medium,https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n,String,
+1078,Occurrences After Bigram,Easy,https://leetcode.com/problems/occurrences-after-bigram,String,
+1316,Distinct Echo Substrings,Hard,https://leetcode.com/problems/distinct-echo-substrings,"String, Hashing",
+1147,Longest Chunked Palindrome Decomposition,Hard,https://leetcode.com/problems/longest-chunked-palindrome-decomposition,"String, Dynamic Programming",
+1392,Longest Happy Prefix,Hard,https://leetcode.com/problems/longest-happy-prefix,"String, Rolling Hash",
+1422,Maximum Score After Splitting a String,Easy,https://leetcode.com/problems/maximum-score-after-splitting-a-string,"Greedy, String",
+1461,Check If a String Contains All Binary Codes of Size K,Medium,https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k,"String, Hash Set, Sliding Window",
+1525,Number of Good Ways to Split a String,Medium,https://leetcode.com/problems/number-of-good-ways-to-split-a-string,"String, Hash Set",
+1513,Number of Substrings With Only 1s,Medium,https://leetcode.com/problems/number-of-substrings-with-only-1s,"Math, String",
+1544,Make The String Great,Easy,https://leetcode.com/problems/make-the-string-great,"String, Stack",
+984,String Without AAA or BBB,Medium,https://leetcode.com/problems/string-without-aaa-or-bbb,"Greedy, String",
+696,Count Binary Substrings,Easy,https://leetcode.com/problems/count-binary-substrings,"String, Two Pointers",
+1540,Can Convert String in K Moves,Medium,https://leetcode.com/problems/can-convert-string-in-k-moves,String,
+500,Keyboard Row,Easy,https://leetcode.com/problems/keyboard-row,"Array, String",
+1324,Print Words Vertically,Medium,https://leetcode.com/problems/print-words-vertically,String,
+1371,Find the Longest Substring Containing Vowels in Even Counts,Medium,https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts,"Bit Manipulation, String",
+1417,Reformat The String,Easy,https://leetcode.com/problems/reformat-the-string,String,
+880,Decoded String at Index,Medium,https://leetcode.com/problems/decoded-string-at-index,"Stack, String",
+1410,HTML Entity Parser,Medium,https://leetcode.com/problems/html-entity-parser,"String, Stack",
+1440,Evaluate Boolean Expression,Medium,https://leetcode.com/problems/evaluate-boolean-expression,String,
+1309,Decrypt String from Alphabet to Integer Mapping,Easy,https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping,String,
+439,Ternary Expression Parser,Medium,https://leetcode.com/problems/ternary-expression-parser,"String, Stack",
+1189,Maximum Number of Balloons,Easy,https://leetcode.com/problems/maximum-number-of-balloons,"Hash Map, String",
+1507,Reformat Date,Easy,https://leetcode.com/problems/reformat-date,"String, Parsing",
+831,Masking Personal Information,Medium,https://leetcode.com/problems/masking-personal-information,String,
+1271,Hexspeak,Easy,https://leetcode.com/problems/hexspeak,"String, Math",
+1180,Count Substrings with Only One Distinct Letter,Easy,https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter,String,
+1455,Check If a Word Occurs As a Prefix of Any Word in a Sentence,Easy,https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence,String,

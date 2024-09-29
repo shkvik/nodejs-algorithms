@@ -1,0 +1,8 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+1444,Number of Ways of Cutting a Pizza,Hard,https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza,"Dynamic Programming, Matrix",
+1314,Matrix Block Sum,Medium,https://leetcode.com/problems/matrix-block-sum,"Array, Matrix",
+861,Score After Flipping Matrix,Medium,https://leetcode.com/problems/score-after-flipping-matrix,"Greedy, Matrix",
+1210,Minimum Moves to Reach Target with Rotations,Hard,https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations,"Breadth-First Search, Matrix",
+1222,Queens That Can Attack the King,Medium,https://leetcode.com/problems/queens-that-can-attack-the-king,"Array, Matrix, Simulation",
+1380,Lucky Numbers in a Matrix,Easy,https://leetcode.com/problems/lucky-numbers-in-a-matrix,"Array, Matrix",
+1329,Sort the Matrix Diagonally,Medium,https://leetcode.com/problems/sort-the-matrix-diagonally,"Matrix, Sorting",

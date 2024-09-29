@@ -1,0 +1,33 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+74,Search a 2D Matrix,Medium, https://leetcode.com/problems/search-a-2d-matrix," ""Binary Search","[' Matrix""']"
+300,Longest Increasing Subsequence,Medium, https://leetcode.com/problems/longest-increasing-subsequence," ""Binary Search","[' Dynamic Programming""']"
+315,Count of Smaller Numbers After Self,Hard, https://leetcode.com/problems/count-of-smaller-numbers-after-self," ""Binary Search","[' Divide and Conquer', ' Binary Indexed Tree""']"
+240,Search a 2D Matrix II,Medium, https://leetcode.com/problems/search-a-2d-matrix-ii," ""Binary Search","[' Divide and Conquer', ' Matrix""']"
+278,First Bad Version,Easy, https://leetcode.com/problems/first-bad-version," ""Binary Search""",
+875,Koko Eating Bananas,Medium, https://leetcode.com/problems/koko-eating-bananas," ""Binary Search""",
+793,Preimage Size of Factorial Zeroes Function,Hard, https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function," ""Binary Search","[' Math""']"
+1268,Search Suggestions System,Medium, https://leetcode.com/problems/search-suggestions-system," ""Binary Search","[' Trie""']"
+1044,Longest Duplicate Substring,Hard, https://leetcode.com/problems/longest-duplicate-substring," ""Binary Search","[' Hash Table', ' String""']"
+352,Data Stream as Disjoint Intervals,Hard, https://leetcode.com/problems/data-stream-as-disjoint-intervals," ""Binary Search","[' Ordered Set""']"
+410,Split Array Largest Sum,Hard, https://leetcode.com/problems/split-array-largest-sum," ""Binary Search","[' Dynamic Programming', ' Greedy""']"
+1062,Longest Repeating Substring,Medium, https://leetcode.com/problems/longest-repeating-substring," ""Binary Search","[' Sliding Window""']"
+374,Guess Number Higher or Lower,Easy, https://leetcode.com/problems/guess-number-higher-or-lower," ""Binary Search","[' Interactive""']"
+778,Swim in Rising Water,Hard, https://leetcode.com/problems/swim-in-rising-water," ""Binary Search","[' Heap (Priority Queue)""']"
+774,Minimize Max Distance to Gas Station,Hard, https://leetcode.com/problems/minimize-max-distance-to-gas-station," ""Binary Search","[' Greedy""']"
+1157,Online Majority Element In Subarray,Hard,https://leetcode.com/problems/online-majority-element-in-subarray,"Segment Tree, Binary Indexed Tree, Binary Search",
+1237,Find Positive Integer Solution for a Given Equation,Easy,https://leetcode.com/problems/find-positive-integer-solution-for-a-given-equation,"Math, Two Pointers, Binary Search",
+497,Random Point in Non-overlapping Rectangles,Medium,https://leetcode.com/problems/random-point-in-non-overlapping-rectangles,"Math, Binary Search",
+302,Smallest Rectangle Enclosing Black Pixels,Hard,https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels,"Binary Search, Depth-First Search",
+668,Kth Smallest Number in Multiplication Table,Hard,https://leetcode.com/problems/kth-smallest-number-in-multiplication-table,Binary Search,
+483,Smallest Good Base,Hard,https://leetcode.com/problems/smallest-good-base,"Binary Search, Math",
+1300,Sum of Mutated Array Closest to Target,Medium,https://leetcode.com/problems/sum-of-mutated-array-closest-to-target,Binary Search,
+644,Maximum Average Subarray II,Hard,https://leetcode.com/problems/maximum-average-subarray-ii,"Binary Search, Array",
+1182,Shortest Distance to Target Color,Medium,https://leetcode.com/problems/shortest-distance-to-target-color,"Array, Binary Search",
+1482,Minimum Number of Days to Make m Bouquets,Medium,https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets,"Array, Binary Search, Greedy",
+1508,Range Sum of Sorted Subarray Sums,Medium,https://leetcode.com/problems/range-sum-of-sorted-subarray-sums,"Array, Sorting, Binary Search",
+754,Reach a Number,Medium,https://leetcode.com/problems/reach-a-number,"Math, Binary Search",
+744,Find Smallest Letter Greater Than Target,Easy,https://leetcode.com/problems/find-smallest-letter-greater-than-target,Binary Search,
+1539,Kth Missing Positive Number,Easy,https://leetcode.com/problems/kth-missing-positive-number,"Array, Binary Search",
+786,K-th Smallest Prime Fraction,Hard,https://leetcode.com/problems/k-th-smallest-prime-fraction,"Heap, Binary Search",
+1150,Check If a Number Is Majority Element in a Sorted Array,Easy,https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array,Binary Search,
+1064,Fixed Point,Easy,https://leetcode.com/problems/fixed-point,Binary Search,

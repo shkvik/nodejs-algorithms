@@ -1,0 +1,4 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+346,Moving Average from Data Stream,Easy, https://leetcode.com/problems/moving-average-from-data-stream," ""Queue","[' Design""']"
+933,Number of Recent Calls,Easy, https://leetcode.com/problems/number-of-recent-calls," ""Queue","[' Design""']"
+649,Dota2 Senate,Medium,https://leetcode.com/problems/dota2-senate,"Greedy, Queue",

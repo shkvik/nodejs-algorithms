@@ -1,0 +1,9 @@
+ID,Title,Difficulty,Leetcode Question Link,Tags,
+1234,Replace the Substring for Balanced String,Medium, https://leetcode.com/problems/replace-the-substring-for-balanced-string," ""Sliding Window","[' Two Pointers', ' String', ' Hash Table""']"
+643,Maximum Average Subarray I,Easy,https://leetcode.com/problems/maximum-average-subarray-i,"Array, Sliding Window",
+1461,Check If a String Contains All Binary Codes of Size K,Medium,https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k,"String, Hash Set, Sliding Window",
+1499,Max Value of Equation,Hard,https://leetcode.com/problems/max-value-of-equation,"Sliding Window, Priority Queue, Deque",
+1343,Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold,Medium,https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold,"Array, Sliding Window",
+1156,Swap For Longest Repeated Character Substring,Medium,https://leetcode.com/problems/swap-for-longest-repeated-character-substring,"Two Pointers, Sliding Window",
+1052,Grumpy Bookstore Owner,Medium,https://leetcode.com/problems/grumpy-bookstore-owner,Sliding Window,
+1208,Get Equal Substrings Within Budget,Medium,https://leetcode.com/problems/get-equal-substrings-within-budget,Sliding Window,
