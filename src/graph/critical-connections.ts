@@ -1,54 +1,73 @@
-
-const connections = [
-  [0,1],
-  [1,2],
-  [2,0],
-  [1,3]
-]
-
-function criticalConnections(n: number, connections: number[][]): number[][] {
+function criticalConnectionsEZ(n: number, connections: number[][]): number[][] {
   const graph: number[][] = Array.from({ length: n }, () => []);
   const result: number[][] = [];
-  const disc: number[] = new Array(n).fill(-1); // Время открытия вершины
-  const low: number[] = new Array(n).fill(-1);  // Минимальное время посещения
-  let time = 0;
 
-  // Построение графа
   for (const [u, v] of connections) {
     graph[u].push(v);
     graph[v].push(u);
   }
 
-  // Основная функция DFS
+  const isConnected = (removedEdge: [number, number]) => {
+    const visited: boolean[] = new Array(n).fill(false);
+    let count = 0;
+    const dfs = (u: number) => {
+      visited[u] = true;
+      count++;
+      for (const v of graph[u]) {
+        if (!visited[v] 
+            && !(u === removedEdge[0] && v === removedEdge[1]) 
+            && !(u === removedEdge[1] && v === removedEdge[0])
+        ) {
+          dfs(v);
+        }
+      }
+    };
+    dfs(0);
+    return count === n;
+  };
+
+  for (const [u, v] of connections) {
+    if (!isConnected([u, v])) {
+      result.push([u, v]);
+    }
+  }
+
+  return result;
+}
+
+function criticalConnections(n: number, connections: number[][]): number[][] {
+  const graph: number[][] = Array.from({ length: n }, () => []);
+  const result: number[][] = [];
+  const disc: number[] = new Array(n).fill(-1);
+  const low: number[] = new Array(n).fill(-1);
+  let time = 0;
+
+  for (const [u, v] of connections) {
+    graph[u].push(v);
+    graph[v].push(u);
+  }
   const dfs = (u: number, parent: number) => {
-    disc[u] = low[u] = time++; // Инициализация времени открытия и low
+    disc[u] = low[u] = time++;
     for (const v of graph[u]) {
-      if (v === parent) continue; // Игнорируем родительскую вершину
-
-      if (disc[v] === -1) { // Если вершина v еще не посещена
-        dfs(v, u); // Рекурсивный DFS
-
-        // Обновляем low[u] на основе дочерней вершины v
+      if (v === parent){
+        continue;
+      }; 
+      if (disc[v] === -1) {
+        dfs(v, u); 
         low[u] = Math.min(low[u], low[v]);
-
-        // Если low[v] > disc[u], то (u, v) — критическое соединение
         if (low[v] > disc[u]) {
           result.push([u, v]);
         }
       } else {
-        // Обратное ребро, обновляем low[u]
         low[u] = Math.min(low[u], disc[v]);
       }
     }
   };
-
-  // Запуск DFS для всех вершин
   for (let i = 0; i < n; i++) {
     if (disc[i] === -1) {
-      dfs(i, -1); // -1 означает, что у начальной вершины нет родителя
+      dfs(i, -1);
     }
   }
-
   return result;
 }
 
@@ -58,12 +77,16 @@ export function criticalConnectionsDBG(){
   const tests = [
     {
       input: { n: 4, connections: [[0, 1], [1, 2], [2, 0], [1, 3]] },
-      result: [[1, 3]] // Соединение [1, 3] является критическим
+      result: [[1, 3]]
     },
     {
       input: { n: 2, connections: [[0, 1]] },
-      result: [[0, 1]] // Единственное соединение [0, 1] является критическим
+      result: [[0, 1]] 
     },
+    {
+      input: { n: 6, connections: [[0, 1], [1, 2], [1, 3], [3, 4], [4, 5], [2, 5]] },
+      result: [[0, 1]] 
+    }
   ];
   
   tests.forEach((test, index) => {
