@@ -22,7 +22,39 @@ function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | nul
   return dummyHead.next;
 }
 
-export function DBG() {
+function addTwoNumbers2(l1: ListNode | null, l2: ListNode | null): ListNode | null {
+  const castList = (root: ListNode) => {
+    const result = [];
+    let current: ListNode = root;
+  
+    while(current){
+      result.push(current.val);
+      current = current.next;
+    }
+    return result;
+  }
+  
+  const createList = (arr: number[]) => {
+    if (arr.length === 0) return null;
+    let head = new ListNode(arr[0]);
+    let current = head;
+    for (let i = 1; i < arr.length; i++) {
+      current.next = new ListNode(arr[i]);
+      current = current.next;
+    }
+    return head;
+  }
+  const list1 = Number(castList(l1).reverse().join(''));
+  const list2 = Number(castList(l2).reverse().join(''));
+  const list3 = String(list1 + list2).split('').reverse().map(Number);
+
+  return createList(list3)
+  
+}
+
+
+
+export function addTwoNumbersDBG() {
   const tests = [
     {
       input: {
