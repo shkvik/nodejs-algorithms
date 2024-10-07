@@ -1,16 +1,18 @@
-import { printTree, TreeNode } from "./utilities";
+import { TreeNode } from "./utilities";
 
 function isBalanced(root: TreeNode | null): boolean {
-  function checkBalance(node: TreeNode | null): number {
+  const checkBalance = (node: TreeNode | null): number => {
     if (!node) {
       return 0;
     }
     const leftHeight = checkBalance(node.left);
-    if (leftHeight === -1) return -1;
-
+    if (leftHeight === -1) {
+      return -1;
+    }
     const rightHeight = checkBalance(node.right);
-    if (rightHeight === -1) return -1;
-
+    if (rightHeight === -1) {
+      return -1;
+    }  
     if (Math.abs(leftHeight - rightHeight) > 1) {
       return -1;
     }

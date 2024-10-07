@@ -1,3 +1,6 @@
+// input: ["wrt", "wrf", "er", "ett", "rftt"],
+// expected: "wertf"
+
 function alienOrder(words: string[]): string {
   const graph: Record<string, Set<string>> = Object.create(null); 
   const inDegree: Record<string, number> = Object.create(null);
@@ -13,7 +16,7 @@ function alienOrder(words: string[]): string {
   for (let i = 0; i < words.length - 1; i++) {
     const word1 = words[i];
     const word2 = words[i + 1];
-
+    //"wrt", "wrf"
     const minLength = Math.min(word1.length, word2.length);
     let foundDifference = false;
 
