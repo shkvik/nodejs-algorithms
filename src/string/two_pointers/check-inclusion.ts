@@ -5,22 +5,20 @@ function checkInclusion(s1: string, s2: string): boolean {
   const count2 = new Array(26).fill(0);
   const aCharCode = 'a'.charCodeAt(0);
 
-  // Заполняем счетчик для s1 и для первого окна в s2
   for (let i = 0; i < s1.length; i++) {
     count1[s1.charCodeAt(i) - aCharCode]++;
     count2[s2.charCodeAt(i) - aCharCode]++;
   }
 
-  // Проверяем первое окно
-  if (count1.join() === count2.join()) return true;
+  if (count1.every((elem, i) => elem === count2[i])){
+    return true;
+  } 
 
-  // Двигаем окно по строке s2
   for (let i = s1.length; i < s2.length; i++) {
-    count2[s2.charCodeAt(i) - aCharCode]++; // Добавляем символ в окно
-    count2[s2.charCodeAt(i - s1.length) - aCharCode]--; // Убираем символ за пределами окна
+    count2[s2.charCodeAt(i) - aCharCode]++;
+    count2[s2.charCodeAt(i - s1.length) - aCharCode]--;
 
-    // Проверяем текущее окно
-    if (count1.join() === count2.join()) {
+    if (count1.every((elem, i) => elem === count2[i])) {
       return true;
     }
   }
@@ -28,7 +26,7 @@ function checkInclusion(s1: string, s2: string): boolean {
   return false;
 }
 
-function checkInclusionDBG(){
+export function checkInclusionDBG(){
   const tests = [
     {
       input: { s1: "ab", s2: "eidbaooo" },
