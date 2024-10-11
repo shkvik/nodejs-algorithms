@@ -1,24 +1,19 @@
 function findMaxConsecutiveOnesII(nums: number[]): number {
-  let left = 0; // Начало текущего окна
-  let right = 0; // Конец текущего окна
-  let zeroCount = 0; // Количество нулей в текущем окне
+  let left = 0;
+  let right = 0;
+  let zeroCount = 0; 
   let maxConsecutiveOnes = 0;
 
   while (right < nums.length) {
-    // Если встретили 0, увеличиваем счетчик нулей
     if (nums[right] === 0) {
       zeroCount++;
     }
-
-    // Если количество нулей больше 1, сдвигаем левую границу
     while (zeroCount > 1) {
       if (nums[left] === 0) {
         zeroCount--;
       }
       left++;
     }
-
-    // Вычисляем максимальное количество единиц
     maxConsecutiveOnes = Math.max(maxConsecutiveOnes, right - left + 1);
     right++;
   }

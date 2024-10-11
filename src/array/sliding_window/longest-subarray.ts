@@ -8,16 +8,12 @@ function longestSubarray(nums: number[]): number {
     if (nums[right] === 0) {
       zeroCount++;
     }
-
-    // Сдвигаем левую границу окна, если количество нулей больше одного
     while (zeroCount > 1) {
       if (nums[left] === 0) {
         zeroCount--;
       }
       left++;
     }
-
-    // Обновляем максимальную длину подмассива, исключив ровно один элемент
     maxLen = Math.max(maxLen, right - left);
     right++;
   }

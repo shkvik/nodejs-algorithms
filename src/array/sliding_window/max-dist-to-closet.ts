@@ -5,21 +5,17 @@ function maxDistToClosest(seats: number[]): number {
   for (let i = 0; i < seats.length; i++) {
     if (seats[i] === 1) {
       if (lastOccupied === -1) {
-        // Все свободные места в начале
         maxDistance = i;
       } else {
-        // Рассчитываем расстояние между занятыми местами
         maxDistance = Math.max(maxDistance, Math.floor((i - lastOccupied) / 2));
       }
       lastOccupied = i;
     }
   }
-
-  // Все свободные места в конце
   maxDistance = Math.max(maxDistance, seats.length - 1 - lastOccupied);
-
   return maxDistance;
 }
+
 
 function maxDistToClosestDBG(){
   const tests = [

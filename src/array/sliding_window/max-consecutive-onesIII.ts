@@ -5,20 +5,15 @@ function findMaxConsecutiveOnesIII(nums: number[], k: number): number {
   let maxLen = 0;
 
   while (right < nums.length) {
-    // Если встречаем 0, увеличиваем счетчик нулей
     if (nums[right] === 0) {
       zeroCount++;
     }
-
-    // Если количество нулей больше k, сдвигаем левую границу окна
     while (zeroCount > k) {
       if (nums[left] === 0) {
         zeroCount--;
       }
       left++;
     }
-
-    // Обновляем максимальную длину подмассива
     maxLen = Math.max(maxLen, right - left + 1);
     right++;
   }
