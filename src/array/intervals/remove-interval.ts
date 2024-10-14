@@ -1,5 +1,14 @@
-// 1272. Remove Interval
-
+/**
+ * @problem [1288. Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals)
+ * 
+ * ### Как решается
+ * Задачу можно решить, обрабатывая каждый интервал и проверяя его пересечение 
+ * с интервалом toBeRemoved. Для каждого интервала возможны три случая: 
+ * 1. Интервал полностью лежит вне toBeRemoved: В этом случае интервал остается неизменным.
+ * 2. Интервал полностью лежит внутри toBeRemoved: В этом случае интервал удаляется.
+ * 3. Интервал частично пересекается с toBeRemoved: В этом случае мы разделяем интервал на 
+ * две части — до и после пересечения с toBeRemoved.
+ */
 function removeInterval(intervals: number[][], toBeRemoved: number[]): number[][] {
   const result: number[][] = [];
   const [removeStart, removeEnd] = toBeRemoved;
