@@ -10,9 +10,10 @@ function isReflected(points: number[][]): boolean {
   }
 
   const midX = (minX + maxX) / 2;
+  const cmpr = midX * 2;
 
   for (const [x, y] of points) {
-    const reflectedX = 2 * midX - x;
+    const reflectedX = cmpr - x;
     if (!pointSet.has(`${reflectedX},${y}`)) {
       return false;
     }
@@ -21,8 +22,20 @@ function isReflected(points: number[][]): boolean {
   return true;
 }
 
-export function isReflectedDBG(){
+export function isReflectedDBG() {
   const tests = [
+    {
+      // Ожидаемый результат: false
+      // Нет симметрии, так как точка (-2, 1) не имеет "зеркальной" пары
+      input: [[1, 1], [-2, 1], [1, -1], [-1, -1]],
+      result: false
+    },
+    {
+      // Ожидаемый результат: true
+      // Точки симметричны относительно оси X = 0
+      input: [[1, 1], [-1, 1], [1, -1], [-1, -1]],
+      result: true
+    },
     {
       input: [[1, 1], [-1, 1]],
       result: true
@@ -30,9 +43,16 @@ export function isReflectedDBG(){
     {
       input: [[1, 1], [-1, -1]],
       result: false
-    }
+    },
+    {
+      // Ожидаемый результат: true
+      // Точки симметричны относительно оси X = 0, включая точку на самой оси
+      input: [[1, 2], [-1, 2], [1, 3], [-1, 3], [0, 4]],
+      result: true
+    },
+    
   ];
-  
+
   tests.forEach((test, index) => {
     const result = isReflected(test.input);
     const success = result === test.result;
