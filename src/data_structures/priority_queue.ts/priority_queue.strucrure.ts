@@ -1,11 +1,9 @@
-import { IPriorityQueue } from "./priority_queue.abstract";
-
-export class PriorityQueue<T> extends IPriorityQueue<T> {
-
+export class Heap<T> {
+  protected cmpr: (a: T, b: T) => boolean;
   private data: T[] = [];
 
   constructor(comparator?: (a: T, b: T) => boolean) {
-    super(comparator);
+    this.cmpr = comparator ?? ((a: T, b: T) => a > b);
   }
 
   private swap = (i: number, j: number): void => {
@@ -40,7 +38,6 @@ export class PriorityQueue<T> extends IPriorityQueue<T> {
     }
   }
 
-  //
   private heapifyDown(index: number): void {
     let curr = index;
 
@@ -54,7 +51,10 @@ export class PriorityQueue<T> extends IPriorityQueue<T> {
     while (left(curr) < data.length) {
       let child = left(curr);
 
-      if (cmpr(data[right(curr)], data[child])) {
+      if (
+        right(curr) < data.length && 
+        cmpr(data[right(curr)], data[child])
+      ) {
         child = right(curr);
       }
       if (cmpr(data[curr], data[child])) {

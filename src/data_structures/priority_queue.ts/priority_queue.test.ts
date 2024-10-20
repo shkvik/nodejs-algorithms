@@ -1,5 +1,6 @@
-import { PriorityQueue } from "./priority_queue.strucrure";
 import { faker } from "@faker-js/faker";
+import { Heap } from "./priority_queue.strucrure";
+
 
 describe('PriorityQueue', function () {
   const testDataCout = 100_000;
@@ -15,7 +16,7 @@ describe('PriorityQueue', function () {
 
   describe('max', () => {
     it('push', () => {
-      const pq = new PriorityQueue<number>((a, b) => a > b);
+      const pq = new Heap<number>((a, b) => a > b);
 
       pq.push(n3);
       pq.push(n2);
@@ -29,7 +30,7 @@ describe('PriorityQueue', function () {
 
     it('pop', () => {
       for (let i = 0; i < 10; i++) {
-        const pq = new PriorityQueue<number>((a, b) => a > b);
+        const pq = new Heap<number>((a, b) => a > b);
         const testArr = faker.helpers.shuffle(nArr);
         pq.pushMany(testArr);
 
@@ -42,7 +43,7 @@ describe('PriorityQueue', function () {
     });
 
     it('100 000 elements', () => {
-      const pq = new PriorityQueue<number>((a, b) => a > b);
+      const pq = new Heap<number>((a, b) => a > b);
       const testArr = faker.helpers.uniqueArray(
         () => faker.number.int({ min: 0, max: testDataCout }), testDataCout
       );
@@ -59,7 +60,7 @@ describe('PriorityQueue', function () {
     const minCallBack = (a, b) => a < b;
 
     it('push', function () {
-      const pq = new PriorityQueue<number>(minCallBack);
+      const pq = new Heap<number>(minCallBack);
 
       pq.push(n5);
       pq.push(n4);
@@ -75,7 +76,7 @@ describe('PriorityQueue', function () {
 
     it('pop', () => {
       for (let i = 0; i < 10; i++) {
-        const pq = new PriorityQueue<number>(minCallBack);
+        const pq = new Heap<number>(minCallBack);
         const testArr = faker.helpers.shuffle(nArr);
         pq.pushMany(testArr);
 
@@ -88,7 +89,7 @@ describe('PriorityQueue', function () {
     });
 
     it('100 000 elements', () => {
-      const pq = new PriorityQueue<number>(minCallBack);
+      const pq = new Heap<number>(minCallBack);
       const testArr = faker.helpers.uniqueArray(
         () => faker.number.int({ min: 0, max: testDataCout }), testDataCout
       );
@@ -101,5 +102,44 @@ describe('PriorityQueue', function () {
 
   });
 
+  describe('via LeetCode problems', () => {
+
+    function findRelativeRanks(score: number[]): string[] {
+      const result = new Array(score.length).fill(null);
+      const placements = {
+        1: "Gold Medal",
+        2: "Silver Medal",
+        3: "Bronze Medal",
+      }
+      const pq = new Heap<[number, number]>((a, b) => {
+        return a[1] > b[1]
+      });
+      for (const [index, value] of score.entries()) {
+        pq.push([index, value]);
+      }
+      for (let i = 0; i < score.length; i++) {
+        const offset = i + 1;
+        const [index, value] = pq.pop()
+        result[index] = placements[offset] || String(offset);
+      }
+
+      return result;
+    };
+
+
+    it('506. Relative Ranks', () => {
+      // Example 1
+      const input1 = [5, 4, 3, 2, 1];
+      const output1 = ["Gold Medal", "Silver Medal", "Bronze Medal", "4", "5"];
+      const expect1 = findRelativeRanks(input1);
+      expect(expect1).toStrictEqual(output1)
+
+      const input2 = [10, 3, 8, 9, 4];
+      const output2 = ["Gold Medal", "5", "Bronze Medal", "Silver Medal", "4"];
+      const expect3 = findRelativeRanks(input2);
+      expect(expect3).toStrictEqual(output2)
+
+    });
+  });
 
 });
