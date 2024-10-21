@@ -20,7 +20,7 @@ function maxSlidingWindow(nums: number[], k: number): number[] {
   }
   return result;
 }
-
+//test
 const nums = [1,-1], k = 1;
 
 console.log(maxSlidingWindow(nums, k));
