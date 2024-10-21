@@ -1,5 +1,5 @@
 import { minGroupsDBG } from "./array/intervals/min-groups";
-import { isReflectedDBG } from "./array/is-reflected";
+import { isReflectedDBG } from "./array/hash_table/is-reflected";
 import { Heap } from "./heap/utilities/heap";
 
 
