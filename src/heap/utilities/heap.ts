@@ -47,12 +47,12 @@ export class Heap<T> {
     const left = this.left;
     const right = this.right;
     const cmpr = this.cmpr;
-    
+
     while (left(curr) < data.length) {
       let child = left(curr);
 
       if (
-        right(curr) < data.length && 
+        right(curr) < data.length &&
         cmpr(data[right(curr)], data[child])
       ) {
         child = right(curr);
@@ -79,6 +79,9 @@ export class Heap<T> {
   public pop(): T | null {
     if (this.data.length === 0) {
       return null;
+    }
+    if (this.data.length === 1) {
+      return this.data.pop();
     }
     const root = this.data[0];
     const last = this.data.pop();

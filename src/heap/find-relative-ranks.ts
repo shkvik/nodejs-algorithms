@@ -1,4 +1,4 @@
-import { Heap } from "src/data_structures/priority_queue.ts/priority_queue.strucrure";
+import { Heap } from "./utilities/heap";
 
 export function findRelativeRanks(score: number[]): string[] {
   const result = new Array(score.length).fill(null);
