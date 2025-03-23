@@ -1,26 +1,17 @@
-import { minGroupsDBG } from "./array/intervals/min-groups";
-import { isReflectedDBG } from "./array/hash_table/is-reflected";
-import { Heap } from "./heap/utilities/heap";
+// 3 = 9 sec
 
 
-function maxSlidingWindow(nums: number[], k: number): number[] {
-  const heap = new Heap<[number, number]>((a, b) => a[0] > b[0]);
-  const result: number[] = [];
-
-  for (let i = 0; i < k; i++) {
-    heap.push([nums[i], i]);
+async function rateLimiter(str: string[], time: number) {
+  for (let i = 0; i < str.length; i++) {
+    await new Promise(res => setTimeout(res, time));
+    console.log(str[i]);
   }
-
-  for (let i = k - 1; i < nums.length; i++) {
-    heap.push([nums[i], i]);
-    while (heap.top()[1] < i - k + 1) {
-      heap.pop();
-    }
-    result.push(heap.top()[0]);
-  }
-  return result;
 }
-//test
-const nums = [1,-1], k = 1;
 
-console.log(maxSlidingWindow(nums, k));
+const strs = [
+  'one',
+  'two',
+  'three',
+]
+
+rateLimiter(strs, 3000);
