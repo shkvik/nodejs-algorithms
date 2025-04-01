@@ -1,3 +1,3 @@
-import { checkCloseStringsDBG } from "./string/counting/close-string";
+import { checkEqualPairsDBG } from "./array/matrix/equal-pairs";
 
-checkCloseStringsDBG()
+checkEqualPairsDBG()
