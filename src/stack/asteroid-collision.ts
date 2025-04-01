@@ -1,23 +1,17 @@
 function asteroidCollision(asteroids: number[]): number[] {
   const stack: number[] = [];
-  for (const val of asteroids) {
-    let isAlive: boolean = true;
-
-    while (stack.length > 0 && stack[stack.length - 1] > 0 && val < 0 && isAlive) {
-      const head = stack[stack.length - 1];
-      if (Math.abs(val) > head) {
-        stack.pop();
-      }
-      if (Math.abs(val) === head) {
-        stack.pop();
-        isAlive = false;
-      }
-      if (Math.abs(val) < head) {
-        isAlive = false;
+  for (let i = 0; i < asteroids.length; i++) {
+    let remain = asteroids[i]
+    while (stack.length > 0 && remain < 0 && stack[stack.length - 1] > 0) {
+      const asteroid = stack.pop()
+      if (asteroid + remain === 0) {
+        remain = 0;
+      } else {
+        remain = asteroid + remain > 0 ? asteroid : remain
       }
     }
-    if (isAlive) {
-      stack.push(val);
+    if (remain) {
+      stack.push(remain)
     }
   }
   return stack;
