@@ -1,21 +1,16 @@
 function productExceptSelf(nums: number[]): number[] {
-  const length = nums.length;
-  const result = new Array(length).fill(1);
-
-  let prefix = 1;
-  for (let i = 0; i < length; i++) {
-    result[i] = prefix;
-    prefix *= nums[i];
+  const answer = new Array<number>(nums.length);
+  answer[0] = 1;
+  for (let i = 1; i < nums.length; i++) {
+    answer[i] = answer[i - 1] * nums[i - 1];
   }
-
-  let postfix = 1;
-  for (let i = length - 1; i >= 0; i--) {
-    result[i] *= postfix;
-    postfix *= nums[i];
+  let right = 1;
+  for (let i = nums.length - 1; i > -1; i--) {
+    answer[i] = answer[i] * right;
+    right *= nums[i];
   }
-
-  return result;
-}
+  return answer;
+};
 
 
 export function productExceptSelfDBG(){
