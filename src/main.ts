@@ -1,5 +1,3 @@
-import { checkEqualPairsDBG } from "./array/matrix/equal-pairs";
+import { checkDecodeStringDBG } from "./stack/decode-string";
 
-// checkEqualPairsDBG()
-
-console.log(Boolean(0))
+checkDecodeStringDBG()
