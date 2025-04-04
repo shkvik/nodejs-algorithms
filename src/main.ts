@@ -1,3 +1,3 @@
-import { checkDecodeStringDBG } from "./stack/decode-string";
+import { dota2SenateDBG } from "./queue/predict-party-victory";
 
-checkDecodeStringDBG()
+dota2SenateDBG()
