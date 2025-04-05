@@ -1,4 +1,3 @@
-import { deleteMiddleDBG } from "./linked_list/delete-middle";
-import { oddEvenListDBG } from "./linked_list/odd-even-list";
+import { leafSimilarDBG } from "./bst/leaf-similar";
 
-oddEvenListDBG()
+leafSimilarDBG()

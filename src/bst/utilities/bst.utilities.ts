@@ -38,3 +38,32 @@ export function printTree(node: TreeNode): void {
     }
   }
 }
+
+export function createBinaryTree(values: (number | null)[]): TreeNode | null {
+  if (values.length === 0 || values[0] == null) return null;
+
+  const root = new TreeNode(values[0]);
+  const queue: (TreeNode | null)[] = [root];
+  let i = 1;
+
+  while (i < values.length) {
+    const current = queue.shift();
+    if (!current) continue;
+
+    const leftVal = values[i++];
+    if (leftVal != null) {
+      current.left = new TreeNode(leftVal);
+      queue.push(current.left);
+    }
+
+    if (i >= values.length) break;
+
+    const rightVal = values[i++];
+    if (rightVal != null) {
+      current.right = new TreeNode(rightVal);
+      queue.push(current.right);
+    }
+  }
+
+  return root;
+}
