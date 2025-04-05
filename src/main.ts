@@ -1,3 +1,4 @@
-import { dota2SenateDBG } from "./queue/predict-party-victory";
+import { deleteMiddleDBG } from "./linked_list/delete-middle";
+import { oddEvenListDBG } from "./linked_list/odd-even-list";
 
-dota2SenateDBG()
+oddEvenListDBG()
